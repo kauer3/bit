@@ -1,0 +1,28 @@
+* *Assignment 1*
+**** ( ) TODO:
+***** ( ) Requirements analysis and organisational context (35 marks)
+****** ( ) Cover page-professional
+****** ( ) Table of Contents-professional
+****** ( ) Introduction, brief overview of CTS
+****** ( ) Organisational structure shown, names and roles(job titles)
+****** ( ) Brief identification and allocation of organisational functions to CTS staff
+****** ( ) Issues/problems identified with each aspect of their IT system (People, Procedures, H/W, S/W, Data), atleast 1 issue per aspect. Inclusion of Ethical and Cultural aspects needed.
+****** ( ) Proposed benefits from the new way of operating the business and their new database (at least 2)
+****** ( ) Functional Requirements (at least 2)
+****** ( ) Non-functional Requirements (at least 2)
+****** ( ) At least three business rules written
+****** ( ) Simple Data Dictionary showing each table e.g.,field name, data type, length, default, acceptable values etc.)( 1 per table x 6)
+****** ( ) Simple ERD showing fields, entities, relationships with appropriate cardinalities as per student’s design
+****** ( ) Proposed or potential solutions to some issues identified earlier (at least 2 solutions)
+****** ( ) Conclusion- summary recommendations and potential benefits with new ways of working and development.
+***** ( ) Design and Test a Database management system (65 marks)
+****** ( ) Create database tables (1 mark for Primary Key, 1 mark for Foreign Key, 1 mark for enough table fields for testing purposes) x 6 tables
+****** ( ) Evidence of table field properties being set as appropriate e.g., validation rules, validation texts, defaults, drop-down lists, field lengths, lookups, input masks, required Y/N.
+****** ( ) Relationships between tables implemented and enforced as appropriate (at least 5)
+****** ( ) Three queries in total: one multi-criteria query with a calculated field, one update query, one parameter query). Evidence of multiple criteria in designs.
+****** ( ) One data entry form simple and professionally designed (no truncated, non-uniform field lengths or alignments). Evidence of button use for functionality and ease of use.
+****** ( ) One report, simple and professionally designed (no truncated, non-uniform field lengths or alignments) 1 mark for creation, 1 mark for attention to formatting, 1 mark for calculated sum.
+****** ( ) Simple navigation form with professionally designed command buttons to quickly open eachreport, form, and query.
+****** ( ) Two simple macros created and attached to suitable objects to facilitate usability. Use of simple IIF statement within form or report or query to help database users in their tasks.
+****** ( ) Fictitious data used to populate tables (0.5 mark per data in each table x 6 tables)
+****** ( ) Functional testing performed and recorded, test, expected result, actual, pass/fail. One test at least per form (1 mark), one test per report (1 mark),and one test for each query (3 marks).

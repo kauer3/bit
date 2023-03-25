@@ -1,0 +1,10 @@
+* *BIOS*:
+  - BIOS chip is *ROM*
+  - Performs the _POST_ (Performance Check Self-Test)
+  - BIOS is stored in the BIOS chip, and the BIOS settings are saved in the CMOS chip
+  - CMOS chip is _volatile_ (needs constant power)
+
+
+
+*** *Next class* 
+**** *_6 steps will be in final exam!_*
