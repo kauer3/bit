@@ -1,7 +1,7 @@
 * *Assignment 1*
 ** Business Scenario:
 *** *CTS - /Computer Training Solutions/*
-**** /What is CTS/:
+**** /What is CTS:/
      - Small NZ company;
      - Owned by:
      -- David Coulter:
@@ -13,12 +13,12 @@
      -- Permanent (short term) contracts for additional technicians, selected primarily because of technical skills;
      -- Have become accustomed to following their own methodology for software engineering;
      -- Have some knowledge of current agile approaches, but _do not really believe in them_.
-**** /What it offers/:
+**** /What it offers:/
      - Supply & installation of new computers to homes & small businesses;
      - Computer repairs & upgrades;
      - Antivirus & internet security support;
      - Training in Microsoft Office & other popular programs.
-**** Their setup:
+**** /Their setup:/
      - Uses Windows 10 Pro on all computers;
      - David uses Chromium Edge for web browsing;
      - CTS rents workspace that have 2 main areas:
@@ -56,7 +56,7 @@
      - Workshop _tools are hard to locate_ in the bad lighting & _shelf area is limited_.
      - Some _equipment is stored on the workshop floor_.
      - Much of the _business data needs to be input via a keyboard_ at present & as the business gets busier David & Alana are finding that _unprocessed data is building upon the desks_ due to the time it takes to enter the data manually.
-**** /What is CTS currently going through/:
+**** /What is CTS currently going through:/
      - Are in growth phase;
      - Are reviewing their operation in terms of equipments that have use for the business;
      - Are investigating offering _adding value to their existing services_;
@@ -86,7 +86,7 @@
 
 
 
-**** ( ) /*TODO*/:
+**** ( ) /*TODO:*/
 ***** ( ) Requirements analysis & organisational context (35 marks)
 ****** ( ) Cover page-professional
 ****** ( ) Table of Contents-professional

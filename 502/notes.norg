@@ -1,0 +1,23 @@
+*** Loops
+**** 'for' loop
+***** Steps:
+      1. Initialization;
+      2. Condition;
+      3. Loop body;
+      4. Update;
+***** Example:
+****** Counter controlled loops:
+       -- Using 'for' loop:
+       @code java
+       for (int count = 1; count <= 10; count++) {
+         System.out.println("Counting " + count);
+       }
+       @end
+       -- Using 'while' loop:
+       @code java
+       int count = 1;
+       while (count <= 10) {
+         System.out.println("Counting " + count);
+         count++;
+       }
+       @end
