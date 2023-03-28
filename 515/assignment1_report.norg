@@ -8,24 +8,65 @@
 *** Introduction
    - Introduce CTS: brief overview of background and what they do
 
-   Computer Training Solutions (CTS) is a small New Zealand owned IT company that provides products as computer and peripherals, and services as computer upgrades and repair. Now in its fifth year of operation, CTS has built a loyal customer base and is going through a growth phase. However, the increasing demand has become a major challenge for the small team of four, who has been held down by structural and organizational issues.
-   Aware that it has great potential, but recognizing that it is having difficulty achieving it, CTS sought my help as an IT analyst to reorganize its processes.
+    Computer Training Solutions (CTS) is a small New Zealand owned IT company that provides products as computer and peripherals, and services as computer upgrades and repair. Now in its fifth year of operation, CTS has built a loyal customer base and is going through a growth phase. However, the increasing demand has become a major challenge for the small team of four, who has been held down by structural and organizational issues.
+    Aware that it has great potential, but recognizing that it is having difficulty achieving it, CTS sought my help as an IT analyst to reorganize its processes.
 
 *** Organisational structure
-   • The organisational structure e.g. names, official roles, specialty areas 
-*** Organisational Functions
-   • Research and Development (R & D) –who?
-   • Production (products and or Services)-who?
-   • Product distribution (logistics)-who?
-   • Finance (Accounting, payroll, procurement, Accounts Receivable, Accounts Payable)-who?
-   • Sales and marketing (market research, promotion, customer support)-who?
-   • Human Resources & Administration (HR)-who?
+    - The organisational structure e.g. names, official roles, specialty areas 
 
-   Existing IT System
-   Briefly describe the components of their system (People, Procedures, Hardware, Software and Data).
+    CTC has a small team of four, which results in overlapping roles
+
+**** David Coulter
+     One of CTS's owners, David is chief manager with technical expertise and runs the company as the lead workflow coordinator.
+
+**** Alana Stephens
+     Co-owner alongside David, Alana serves as a complementary manager and focuses on customer training and helpdesk management.
+
+**** James Wilson
+     As an IT technician at CTS, James' focus is on servicing customer devices.
+
+**** Courtenay Jones
+     Courtenay is a senior technician on CTS and focuses primarily on setting up new systems for sale and supporting customers through the helpdesk.
+
+
+*** Organisational Functions
+**** Research and Development
+      David Coulter is mainly responsible for this area and seeks for new trends in technology and new solutions that CTS might market for the future.
+
+**** Production (products and or Services)
+      James Wilson and Courtenay James deal with the various products and services.
+
+**** Product distribution (logistics)
+      Alana Stephens supervises the delivery and tracking of product logistics.
+
+**** Finance (Accounting, payroll, procurement, Accounts Receivable, Accounts Payable)
+      This key part of CTS is assigned to an external chartered accountant.
+
+**** Sales and marketing (market research, promotion, customer support)
+      All of CTS’ staff are involved in sales and marketing. However, David Coulter leads the marketing function and Alan Stephens, as co-owner, leads sales.
+
+**** Human Resources & Administration
+      This organisational component is primarily lead by David Coulter and supported by Alana Stephens .Decisions about who is employed, their appraisals and career development are jointly made.
+
+*** Existing IT System
+    Briefly describe the components of their system (People, Procedures, Hardware, Software and Data).
 
    Observations (separate headings for observations about their People, Procedures, Hardware, Software and Data)
    Briefly describe your observations about their business (e.g. lack of organisation, dysfunction), key issues (problems with all of the above components of their system, e.g. existing processes, or lack of). What you think may be problems of communication between staff and between staff and customers due to the current state that CTS is in.
+
+    CTS systems and processes require analysis using the five standard parts of an IT system: People, Procedures, Hardware, Software and Data. Internet and Networks are assumed to be derived from these. The people include CTS staff and their customers. Their procedures/processes exist but may not be explicitly documented yet. Their hardware assets are relatively small including PCs a printerand a simple network. Their software is conventional, and their data are stored in various ways.
+**** People
+     With a small team, CTS are clearly under pressure of work. The range of skills appears sufficient and complimentary to efficient operation. However, staffing levels or capability to be efficient under heavy work constraints may need reviewing. Lack of use of automation features appears common practice.
+**** Procedures
+     CTS appear to have various procedures within their operation. Their storage of data on a local hard drive and in the cloud appears to have capacity issues. No formal documented process has been located for archiving data or of updating software. Manual input of some data seems inefficient. Work is building up and CTS are operating an inefficient data capture and storage system.
+**** Hardware
+     The existing hardware including the PC’s, the printer and networking equipment is not very old. However, a lack of a client server network and higher specification devices indicates some improvements are needed. The adjacent workshop does not have a computer workstation which is less than appropriate for a tech company.
+**** Software
+     The use of Windows 10 Professional is currently well-supported and widely used. The choice of browser matches a standard windows-based operating system user. Microsoft Office versions are several years old, but still currently supported. Antivirus software has been used recently, however the trial period has expired. DataThe location and storage of business data varies. The lack of structure and the amount of data that is not captured is an issue that requires addressing. Some data in the cloud is good practice, although the capacities/plans may need reviewing.
+
+
+
+
    Risks
    Identify likely risks (economic, technical, and legal) should CTS choose not to develop and modernise.
 
