@@ -31,28 +31,28 @@
 
 *** Organisational Functions
 **** Research and Development
-      David Coulter is mainly responsible for this area and seeks for new trends in technology and new solutions that CTS might market for the future.
+     David Coulter is mainly responsible for this area and seeks for new trends in technology and new solutions that CTS might market for the future.
 
-**** Production (products and or Services)
-      James Wilson and Courtenay James deal with the various products and services.
+**** Production
+     Courtenay James is in charge of products, being also responsible for services alongside James Wilson and Alana Stephens.
 
-**** Product distribution (logistics)
-      Alana Stephens supervises the delivery and tracking of product logistics.
+**** Product distribution
+     Alana Stephens looks after product logistics, tracking and delivery.
 
-**** Finance (Accounting, payroll, procurement, Accounts Receivable, Accounts Payable)
-      This key part of CTS is assigned to an external chartered accountant.
+**** Finance
+     CTS' finances are handled by an external accountant.
 
-**** Sales and marketing (market research, promotion, customer support)
-      All of CTS’ staff are involved in sales and marketing. However, David Coulter leads the marketing function and Alan Stephens, as co-owner, leads sales.
+**** Sales and marketing
+     David Coulter heads marketing, Alana Stephens leads sales and Courtenay James provides customer support.
 
 **** Human Resources & Administration
-      This organisational component is primarily lead by David Coulter and supported by Alana Stephens .Decisions about who is employed, their appraisals and career development are jointly made.
+     David Coulter and Alana Stephens co-manage the company and share staff-related decision-making.
 
 *** Existing IT System
     Briefly describe the components of their system (People, Procedures, Hardware, Software and Data).
 
-   Observations (separate headings for observations about their People, Procedures, Hardware, Software and Data)
-   Briefly describe your observations about their business (e.g. lack of organisation, dysfunction), key issues (problems with all of the above components of their system, e.g. existing processes, or lack of). What you think may be problems of communication between staff and between staff and customers due to the current state that CTS is in.
+    Observations (separate headings for observations about their People, Procedures, Hardware, Software and Data)
+    Briefly describe your observations about their business (e.g. lack of organisation, dysfunction), key issues (problems with all of the above components of their system, e.g. existing processes, or lack of). What you think may be problems of communication between staff and between staff and customers due to the current state that CTS is in.
 
     CTS systems and processes require analysis using the five standard parts of an IT system: People, Procedures, Hardware, Software and Data. Internet and Networks are assumed to be derived from these. The people include CTS staff and their customers. Their procedures/processes exist but may not be explicitly documented yet. Their hardware assets are relatively small including PCs a printerand a simple network. Their software is conventional, and their data are stored in various ways.
 **** People
@@ -67,32 +67,32 @@
 
 
 
-   Risks
-   Identify likely risks (economic, technical, and legal) should CTS choose not to develop and modernise.
+     Risks
+     Identify likely risks (economic, technical, and legal) should CTS choose not to develop and modernise.
 
-   Proposed benefits (from the new way of operating and the new database)
-   Better communication (internal and external), regular meetings, more customer support, better marketing image etc. Increased sales. Better data integrity, rapid access to business data, support business decisions e.g. whether to invest more in new premises, new equipment, extra staff.
-   Proposed Solutions
+     Proposed benefits (from the new way of operating and the new database)
+     Better communication (internal and external), regular meetings, more customer support, better marketing image etc. Increased sales. Better data integrity, rapid access to business data, support business decisions e.g. whether to invest more in new premises, new equipment, extra staff.
+     Proposed Solutions
 
-   Technological Solution
-   The need for a new database system. Initially listing some functional and non-functional requirements. Write some relevant business rules, for implementation in the new database system. 
-   Develop a simple data dictionary (extension of lab work) includes data element (field) name or label, alias, data type and length, default value, acceptable values, source (e.g. a user input form), security (user who has privileges to update certain values if required), responsible users (who usually enters and changes values). 
-   A simple ERD showing only entities (tables) and the relationships between them. (No attributes needed for a simple ERD). The relationships come from the business rules.
+     Technological Solution
+     The need for a new database system. Initially listing some functional and non-functional requirements. Write some relevant business rules, for implementation in the new database system. 
+     Develop a simple data dictionary (extension of lab work) includes data element (field) name or label, alias, data type and length, default value, acceptable values, source (e.g. a user input form), security (user who has privileges to update certain values if required), responsible users (who usually enters and changes values). 
+     A simple ERD showing only entities (tables) and the relationships between them. (No attributes needed for a simple ERD). The relationships come from the business rules.
 
-   Organisational Solution
-   The need for new ways of working together as team, communicating with customers, learning about agile development in the process of helping them develop their new database. Possible options for automation (e.g. making use of Outlook’s features, staff training) need mentioning. Plenty of scope for improvement.
-   Basic Functional Testing
-   In this section (which is marked under the database design section) you need to show a simple set of tests on the completed database and the results. Each part of the database has some testing-that’s why it’s worth 9 marks.
-   E.g. Test id, test case, expected results, actual results, pass/fail. If it fails, then note this and fix, then retest in another test ID. The actual test will depend upon what your query or report or form does.
-   Test id
-   Test case
-   Expected Results
-   Actual Results
-   Pass/Fail
-   1
-   10% Update query on all stock
-   Query runs without error and updates all stock by 10%
-   Query runs without error and updates all stock by 10%
-   Pass
-   Conclusion
-   Summarise key points and make recommendations about needed change and the benefits that should result.
+     Organisational Solution
+     The need for new ways of working together as team, communicating with customers, learning about agile development in the process of helping them develop their new database. Possible options for automation (e.g. making use of Outlook’s features, staff training) need mentioning. Plenty of scope for improvement.
+     Basic Functional Testing
+     In this section (which is marked under the database design section) you need to show a simple set of tests on the completed database and the results. Each part of the database has some testing-that’s why it’s worth 9 marks.
+     E.g. Test id, test case, expected results, actual results, pass/fail. If it fails, then note this and fix, then retest in another test ID. The actual test will depend upon what your query or report or form does.
+     Test id
+     Test case
+     Expected Results
+     Actual Results
+     Pass/Fail
+     1
+     10% Update query on all stock
+     Query runs without error and updates all stock by 10%
+     Query runs without error and updates all stock by 10%
+     Pass
+     Conclusion
+     Summarise key points and make recommendations about needed change and the benefits that should result.
