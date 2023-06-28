@@ -1,18 +1,22 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class TestScores2
+public class TestScoresII
 {
     public static void main (String[] args) {
         Scanner keyboard = new Scanner(System.in);
-        String input = keyboard.nextLine();
-        while (!input.equals("#")) {
-            String[] inputArray = input.split(",");
-            int totalScore = 0;
-            for (int i = 2; i < inputArray.length; i++) {
-                totalScore += Integer.parseInt(inputArray[i]);
+        String line = keyboard.nextLine();
+        while (!line.equals("#")) {
+            ArrayList<Integer> numbers = new ArrayList<>();
+            String[] inputArray = line.split(" ");
+            for (String input : inputArray) {
+                numbers.add(Integer.parseInt(input));
             }
-            System.out.printf("%s %s %d\n", inputArray[1], inputArray[0], totalScore);
-            input = keyboard.nextLine();
+            Collections.sort(numbers);
+            numbers.forEach((n) -> System.out.printf("%d ", n));
+            System.out.println();
+            line = keyboard.nextLine();
         }
         keyboard.close();
     }
