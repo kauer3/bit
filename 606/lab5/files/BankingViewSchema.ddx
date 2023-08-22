@@ -1,0 +1,882 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schema name="BankingViewSchema" JadeVersionNumber="22.0.02" JadePatchNumber="0" CompleteDefinition="true">
+	<Application name="BankingViewSchema">
+		<__overridePatchNumber>0</__overridePatchNumber>
+		<__patchControlString/>
+		<_aboutFormName/>
+		<_defaultLocaleId>0</_defaultLocaleId>
+		<_modifiedBy/>
+		<_modifiedTimestamp/>
+		<_patchVersion>0</_patchVersion>
+		<_startupFormName>CustomerDetails</_startupFormName>
+		<_systemVersion/>
+		<aboutForm/>
+		<appVersion/>
+		<applicationType>G</applicationType>
+		<controlSpacing>0</controlSpacing>
+		<defaultApp>true</defaultApp>
+		<defaultMdi>false</defaultMdi>
+		<finalizeMethod/>
+		<fontBold>false</fontBold>
+		<fontName>Tahoma</fontName>
+		<fontSize>8.25</fontSize>
+		<formMargin>0</formMargin>
+		<heightSingleLineControl>0</heightSingleLineControl>
+		<helpFile/>
+		<icon/>
+		<initializeMethod/>
+		<mdiStyle>0</mdiStyle>
+		<mdiWindowListOrder>0</mdiWindowListOrder>
+		<name>BankingViewSchema</name>
+		<showBubbleHelp>false</showBubbleHelp>
+		<startupForm/>
+		<useBorderStyleOnly>false</useBorderStyleOnly>
+		<webMinimumResponseTime>0</webMinimumResponseTime>
+		<threeDControls>
+			<GUIClass name="GroupBox" />
+			<GUIClass name="OptionButton" />
+			<GUIClass name="CheckBox" />
+		</threeDControls>
+	</Application>
+	<Form locale="5129" name="CustomerDetails">
+		<allowDocking>0</allowDocking>
+		<backBrush/>
+		<backBrushStyle>0</backBrushStyle>
+		<backColor>-2147483633</backColor>
+		<borderStyle>2</borderStyle>
+		<bubbleHelp/>
+		<caption>Customer Details</caption>
+		<clientHeight>274</clientHeight>
+		<clientWidth>407</clientWidth>
+		<clipControls>true</clipControls>
+		<controlBox>true</controlBox>
+		<description/>
+		<disableReason/>
+		<dragCursor/>
+		<enabled>true</enabled>
+		<height>313</height>
+		<helpContextId>0</helpContextId>
+		<helpKeyword/>
+		<icon/>
+		<ignoreSkin>false</ignoreSkin>
+		<ignoreSkinAllControls>false</ignoreSkinAllControls>
+		<left>316</left>
+		<maxButton>true</maxButton>
+		<mdiChild>0</mdiChild>
+		<mdiFrame>false</mdiFrame>
+		<mdiPinned>false</mdiPinned>
+		<minButton>true</minButton>
+		<minimumHeight>0</minimumHeight>
+		<minimumWidth>0</minimumWidth>
+		<mouseCursor/>
+		<mousePointer>0</mousePointer>
+		<name>CustomerDetails</name>
+		<paintedDialogBaseUnits>1048584</paintedDialogBaseUnits>
+		<printerForm>false</printerForm>
+		<scaleForm>true</scaleForm>
+		<scrollBars>0</scrollBars>
+		<secureForm>false</secureForm>
+		<securityLevelEnabled>0</securityLevelEnabled>
+		<securityLevelVisible>0</securityLevelVisible>
+		<showMdiCloseAllButPinnedMenu>false</showMdiCloseAllButPinnedMenu>
+		<showMdiCloseAllButThisMenu>false</showMdiCloseAllButThisMenu>
+		<showMdiCloseMenu>false</showMdiCloseMenu>
+		<showMdiDockMenu>false</showMdiDockMenu>
+		<showMdiFloatMenu>false</showMdiFloatMenu>
+		<showMdiPinMenu>false</showMdiPinMenu>
+		<skinCategoryName/>
+		<tag/>
+		<top>26</top>
+		<userScript/>
+		<visible>true</visible>
+		<webBrowserAutoRefreshInterval>0</webBrowserAutoRefreshInterval>
+		<webBrowserAutoRefreshURL/>
+		<webBrowserDisableBackButton>false</webBrowserDisableBackButton>
+		<webEncodingType/>
+		<webFileName/>
+		<width>423</width>
+		<windowState>0</windowState>
+		<controlList>
+			<StatusLine name="statusLine">
+				<alignment>0</alignment>
+				<autoSize>true</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<bevelColor>-2147483628</bevelColor>
+				<bevelInner>1</bevelInner>
+				<bevelInnerWidth>1</bevelInnerWidth>
+				<bevelOuter>2</bevelOuter>
+				<bevelOuterWidth>1</bevelOuterWidth>
+				<bevelShadowColor>-2147483632</bevelShadowColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>1</borderStyle>
+				<boundaryBrush>0</boundaryBrush>
+				<boundaryColor>-2147483633</boundaryColor>
+				<boundaryWidth>1</boundaryWidth>
+				<bubbleHelp/>
+				<caption/>
+				<clipControls>true</clipControls>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483630</foreColor>
+				<form name="CustomerDetails" />
+				<height>21</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>0</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>statusLine</name>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>0</parentBottomOffset>
+				<parentRightOffset>0</parentRightOffset>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>9</tabIndex>
+				<tabStop>false</tabStop>
+				<tag/>
+				<top>253</top>
+				<userScript/>
+				<visible>true</visible>
+				<width>407</width>
+				<wordWrap>false</wordWrap>
+			</StatusLine>
+			<Button name="btnCancel">
+				<autoSize>1</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<buttonPicture>0</buttonPicture>
+				<cancel>false</cancel>
+				<caption>Cancel</caption>
+				<default>false</default>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483630</foreColor>
+				<form name="CustomerDetails" />
+				<height>31</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>299</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>btnCancel</name>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>52</parentBottomOffset>
+				<parentRightOffset>29</parentRightOffset>
+				<picture/>
+				<pictureDisabled/>
+				<pictureDown/>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<style>0</style>
+				<tabIndex>8</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<top>191</top>
+				<userScript/>
+				<value>false</value>
+				<visible>true</visible>
+				<webFileName/>
+				<width>79</width>
+			</Button>
+			<Button name="btnOk">
+				<autoSize>1</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<buttonPicture>0</buttonPicture>
+				<cancel>false</cancel>
+				<caption>Ok</caption>
+				<default>false</default>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483630</foreColor>
+				<form name="CustomerDetails" />
+				<height>31</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>109</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>btnOk</name>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>52</parentBottomOffset>
+				<parentRightOffset>219</parentRightOffset>
+				<picture/>
+				<pictureDisabled/>
+				<pictureDown/>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<style>0</style>
+				<tabIndex>7</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<top>191</top>
+				<userScript/>
+				<value>false</value>
+				<visible>true</visible>
+				<webFileName/>
+				<width>79</width>
+			</Button>
+			<TextBox name="txtAddress">
+				<alignment>0</alignment>
+				<autoTab>false</autoTab>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483643</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>2</borderStyle>
+				<bubbleHelp/>
+				<case>0</case>
+				<dataType>0</dataType>
+				<decimals>0</decimals>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="CustomerDetails" />
+				<formatOut/>
+				<height>31</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hintBackColor>-2147483648</hintBackColor>
+				<hintForeColor>-2147483648</hintForeColor>
+				<hintText/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<integralHeight>false</integralHeight>
+				<left>107</left>
+				<maxLength>25</maxLength>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>txtAddress</name>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>111</parentBottomOffset>
+				<parentRightOffset>29</parentRightOffset>
+				<passwordField>false</passwordField>
+				<readOnly>false</readOnly>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<scrollBars>0</scrollBars>
+				<scrollHorizontal>false</scrollHorizontal>
+				<scrollVertical>false</scrollVertical>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<selectionStyle>0</selectionStyle>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>6</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<text/>
+				<textOffset>0</textOffset>
+				<top>132</top>
+				<userScript/>
+				<visible>true</visible>
+				<wantReturn>false</wantReturn>
+				<webInputType/>
+				<width>271</width>
+			</TextBox>
+			<Label name="address">
+				<alignment>1</alignment>
+				<autoSize>true</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<caption>Address:</caption>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="CustomerDetails" />
+				<formatOut/>
+				<height>13</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hyperlink/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>28</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>address</name>
+				<noPrefix>false</noPrefix>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>121</parentBottomOffset>
+				<parentRightOffset>336</parentRightOffset>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>5</tabIndex>
+				<tabStop>false</tabStop>
+				<tag/>
+				<top>140</top>
+				<transparent>true</transparent>
+				<userScript/>
+				<visible>true</visible>
+				<width>43</width>
+				<wordWrap>false</wordWrap>
+			</Label>
+			<TextBox name="txtFirstNames">
+				<alignment>0</alignment>
+				<autoTab>false</autoTab>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483643</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>2</borderStyle>
+				<bubbleHelp/>
+				<case>0</case>
+				<dataType>0</dataType>
+				<decimals>0</decimals>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="CustomerDetails" />
+				<formatOut/>
+				<height>31</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hintBackColor>-2147483648</hintBackColor>
+				<hintForeColor>-2147483648</hintForeColor>
+				<hintText/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<integralHeight>false</integralHeight>
+				<left>108</left>
+				<maxLength>25</maxLength>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>txtFirstNames</name>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>152</parentBottomOffset>
+				<parentRightOffset>29</parentRightOffset>
+				<passwordField>false</passwordField>
+				<readOnly>false</readOnly>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<scrollBars>0</scrollBars>
+				<scrollHorizontal>false</scrollHorizontal>
+				<scrollVertical>false</scrollVertical>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<selectionStyle>0</selectionStyle>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>4</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<text/>
+				<textOffset>0</textOffset>
+				<top>91</top>
+				<userScript/>
+				<visible>true</visible>
+				<wantReturn>false</wantReturn>
+				<webInputType/>
+				<width>270</width>
+			</TextBox>
+			<Label name="firstNames">
+				<alignment>1</alignment>
+				<autoSize>true</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<caption>First Names:</caption>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="CustomerDetails" />
+				<formatOut/>
+				<height>13</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hyperlink/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>28</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>firstNames</name>
+				<noPrefix>false</noPrefix>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>161</parentBottomOffset>
+				<parentRightOffset>319</parentRightOffset>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>3</tabIndex>
+				<tabStop>false</tabStop>
+				<tag/>
+				<top>100</top>
+				<transparent>true</transparent>
+				<userScript/>
+				<visible>true</visible>
+				<width>60</width>
+				<wordWrap>false</wordWrap>
+			</Label>
+			<TextBox name="txtLastName">
+				<alignment>0</alignment>
+				<autoTab>false</autoTab>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483643</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>2</borderStyle>
+				<bubbleHelp/>
+				<case>0</case>
+				<dataType>0</dataType>
+				<decimals>0</decimals>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="CustomerDetails" />
+				<formatOut/>
+				<height>31</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hintBackColor>-2147483648</hintBackColor>
+				<hintForeColor>-2147483648</hintForeColor>
+				<hintText/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<integralHeight>false</integralHeight>
+				<left>108</left>
+				<maxLength>15</maxLength>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>txtLastName</name>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>192</parentBottomOffset>
+				<parentRightOffset>29</parentRightOffset>
+				<passwordField>false</passwordField>
+				<readOnly>false</readOnly>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<scrollBars>0</scrollBars>
+				<scrollHorizontal>false</scrollHorizontal>
+				<scrollVertical>false</scrollVertical>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<selectionStyle>0</selectionStyle>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>2</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<text/>
+				<textOffset>0</textOffset>
+				<top>51</top>
+				<userScript/>
+				<visible>true</visible>
+				<wantReturn>false</wantReturn>
+				<webInputType/>
+				<width>270</width>
+			</TextBox>
+			<Label name="lastName">
+				<alignment>1</alignment>
+				<autoSize>true</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<caption>Last Name:</caption>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="CustomerDetails" />
+				<formatOut/>
+				<height>13</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hyperlink/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>28</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>lastName</name>
+				<noPrefix>false</noPrefix>
+				<parent name="CustomerDetails" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>200</parentBottomOffset>
+				<parentRightOffset>325</parentRightOffset>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>1</tabIndex>
+				<tabStop>false</tabStop>
+				<tag/>
+				<top>61</top>
+				<transparent>true</transparent>
+				<userScript/>
+				<visible>true</visible>
+				<width>54</width>
+				<wordWrap>false</wordWrap>
+			</Label>
+		</controlList>
+		<menuList>
+		</menuList>
+	</Form>
+	<Form locale="5129" name="MainMenu">
+		<allowDocking>0</allowDocking>
+		<backBrush>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</backBrush>
+		<backBrushStyle>0</backBrushStyle>
+		<backColor>-2147483633</backColor>
+		<borderStyle>2</borderStyle>
+		<bubbleHelp/>
+		<caption>Main Menu</caption>
+		<clientHeight>324</clientHeight>
+		<clientWidth>407</clientWidth>
+		<clipControls>true</clipControls>
+		<controlBox>true</controlBox>
+		<description/>
+		<disableReason/>
+		<dragCursor/>
+		<enabled>true</enabled>
+		<height>383</height>
+		<helpContextId>0</helpContextId>
+		<helpKeyword/>
+		<icon/>
+		<ignoreSkin>false</ignoreSkin>
+		<ignoreSkinAllControls>false</ignoreSkinAllControls>
+		<left>109</left>
+		<maxButton>true</maxButton>
+		<mdiChild>0</mdiChild>
+		<mdiFrame>true</mdiFrame>
+		<mdiPinned>false</mdiPinned>
+		<minButton>true</minButton>
+		<minimumHeight>0</minimumHeight>
+		<minimumWidth>0</minimumWidth>
+		<mouseCursor/>
+		<mousePointer>0</mousePointer>
+		<name>MainMenu</name>
+		<paintedDialogBaseUnits>1048584</paintedDialogBaseUnits>
+		<printerForm>false</printerForm>
+		<scaleForm>true</scaleForm>
+		<scrollBars>0</scrollBars>
+		<secureForm>false</secureForm>
+		<securityLevelEnabled>0</securityLevelEnabled>
+		<securityLevelVisible>0</securityLevelVisible>
+		<showMdiCloseAllButPinnedMenu>false</showMdiCloseAllButPinnedMenu>
+		<showMdiCloseAllButThisMenu>false</showMdiCloseAllButThisMenu>
+		<showMdiCloseMenu>false</showMdiCloseMenu>
+		<showMdiDockMenu>false</showMdiDockMenu>
+		<showMdiFloatMenu>false</showMdiFloatMenu>
+		<showMdiPinMenu>false</showMdiPinMenu>
+		<skinCategoryName/>
+		<tag/>
+		<top>55</top>
+		<userScript/>
+		<visible>true</visible>
+		<webBrowserAutoRefreshInterval>0</webBrowserAutoRefreshInterval>
+		<webBrowserAutoRefreshURL/>
+		<webBrowserDisableBackButton>false</webBrowserDisableBackButton>
+		<webEncodingType/>
+		<webFileName/>
+		<width>423</width>
+		<windowState>0</windowState>
+		<controlList>
+		</controlList>
+		<menuList>
+			<MenuItem name="mnuCustomer">
+				<backColor>0</backColor>
+				<caption>&amp;Customer</caption>
+				<checked>false</checked>
+				<commandId>0</commandId>
+				<description/>
+				<disableReason/>
+				<enabled>true</enabled>
+				<foreColor>0</foreColor>
+				<form name="MainMenu" />
+				<hasSubMenu>true</hasSubMenu>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<helpList>false</helpList>
+				<level>1</level>
+				<name>mnuCustomer</name>
+				<picture/>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<visible>true</visible>
+				<webFileName/>
+				<windowList>false</windowList>
+				<shortCutKey/>
+				<shortCutFlags/>
+			</MenuItem>
+			<MenuItem name="mnuCustomerAdd">
+				<backColor>0</backColor>
+				<caption>&amp;Add</caption>
+				<checked>false</checked>
+				<commandId>0</commandId>
+				<description/>
+				<disableReason/>
+				<enabled>true</enabled>
+				<foreColor>0</foreColor>
+				<form name="MainMenu" />
+				<hasSubMenu>false</hasSubMenu>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<helpList>false</helpList>
+				<level>2</level>
+				<name>mnuCustomerAdd</name>
+				<picture/>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<visible>true</visible>
+				<webFileName/>
+				<windowList>false</windowList>
+				<shortCutKey/>
+				<shortCutFlags/>
+			</MenuItem>
+		</menuList>
+	</Form>
+</schema>
