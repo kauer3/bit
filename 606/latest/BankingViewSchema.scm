@@ -10,6 +10,7 @@ typeHeaders
 	GBankingViewSchema subclassOf GBankingModelSchema transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2052;
 	SBankingViewSchema subclassOf SBankingModelSchema transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2053;
 	CustomerDetails subclassOf Form transient, transientAllowed, subclassTransientAllowed, highestOrdinal = 9, number = 2054;
+	Logon subclassOf Form transient, transientAllowed, subclassTransientAllowed, highestOrdinal = 3, number = 2049;
 	MainMenu subclassOf Form transient, transientAllowed, subclassTransientAllowed, highestOrdinal = 2, number = 2056;
 membershipDefinitions
 typeDefinitions
@@ -43,6 +44,11 @@ typeDefinitions
 	GBankingViewSchema completeDefinition
 	(
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:22:09:31:22.860;
+	jadeMethodDefinitions
+		getAndValidateUser(
+			usercode: String output; 
+			password: String output): Boolean number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:10:25:02.609;
 	)
 	WebSession completeDefinition
 	(
@@ -98,6 +104,22 @@ typeDefinitions
 		btnCancel_click = click of Button;
 		btnOk_click = click of Button;
 	)
+	Logon completeDefinition
+	(
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:10:15:18.992;
+	referenceDefinitions
+		btnOK:                         Button  number = 3, ordinal = 3;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:10:15:08.701;
+		passwordLabel:                 Label  number = 1, ordinal = 1;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:10:15:08.701;
+		txtPassword:                   TextBox  number = 2, ordinal = 2;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:10:15:08.701;
+	jadeMethodDefinitions
+		btnOK_click(btn: Button input) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:10:18:13.565;
+	eventMethodMappings
+		btnOK_click = click of Button;
+	)
 	MainMenu completeDefinition
 	(
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:22:11:26:55.004;
@@ -129,6 +151,26 @@ databaseDefinitions
 		SBankingViewSchema in "_environ";
 	)
 typeSources
+	GBankingViewSchema (
+	jadeMethodSources
+getAndValidateUser
+{
+getAndValidateUser(usercode: String output; password: String output): Boolean;
+
+vars
+	form : Logon;
+	accept : Boolean;
+begin
+	create form transient;
+	form.showModal();
+	accept := form.txtPassword.text.toLower = '0000';
+	if not accept then
+		app.msgBox('Please enter your password again', 'Access Denied', MsgBox_OK_Only);
+	endif;
+	return accept;
+end;
+}
+	)
 	CustomerDetails (
 	jadeMethodSources
 btnCancel_click
@@ -164,6 +206,19 @@ begin
 	create cust persistent;
 	cust.setpropertiesoncreate(txtAddress.text, txtFirstNames.text, txtLastName.text);
 	commitTransaction;
+end;
+}
+	)
+	Logon (
+	jadeMethodSources
+btnOK_click
+{
+btnOK_click(btn: Button input) updating;
+
+vars
+
+begin
+	self.unloadForm();
 end;
 }
 	)

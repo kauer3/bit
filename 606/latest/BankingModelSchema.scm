@@ -11,7 +11,8 @@ localeDefinitions
 	5129 "English (New Zealand)" schemaDefaultLocale;
 	setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:06:55.936;
 typeHeaders
-	BankingModelSchema subclassOf RootSchemaApp transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2062;
+	BankingModelSchema subclassOf RootSchemaApp transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, highestOrdinal = 1, number = 2062;
+	Bank subclassOf Object number = 2048;
 	BankAccount subclassOf Object abstract, highestOrdinal = 3, number = 2067;
 	ChequeAccount subclassOf BankAccount highestOrdinal = 1, number = 2068;
 	SavingsAccount subclassOf BankAccount highestOrdinal = 1, number = 2069;
@@ -38,6 +39,16 @@ typeDefinitions
 	BankingModelSchema completeDefinition
 	(
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:06:56;
+	referenceDefinitions
+		myBank:                        Bank  readonly, number = 1, ordinal = 1;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:09:38:01.658;
+	jadeMethodDefinitions
+		initialize() updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:09:47:55.988;
+	)
+	Bank completeDefinition
+	(
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:09:30:25.826;
 	)
 	BankAccount completeDefinition
 	(
@@ -106,6 +117,8 @@ typeDefinitions
 	jadeMethodDefinitions
 		count_J_Customers() number = 1005;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:15:11:14:01.556;
+		createBank() number = 1006;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:09:35:22.033;
 		createChequeAccounts() number = 1001;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:01:10:10:36.916;
 		createCustomersFromFile() number = 1004;
@@ -188,6 +201,7 @@ databaseDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:06:56;
 	defaultFileDefinition "bank";
 	classMapDefinitions
+		Bank in "bank";
 		BankAccount in "bank";
 		BankingModelSchema in "_usergui";
 		ChequeAccount in "bank";
@@ -200,6 +214,17 @@ databaseDefinitions
 		SavingsAccount in "bank";
 	)
 typeSources
+	BankingModelSchema (
+	jadeMethodSources
+initialize
+{
+initialize() updating;
+
+begin
+	self.myBank := Bank.firstInstance();
+end;
+}
+	)
 	ChequeAccount (
 	jadeMethodSources
 setPropertiesOnCreate
@@ -259,6 +284,18 @@ begin
 		count := count + 1;
 	endwhile;
 	write count.String & ' customer last names beigin with "J"';
+end;
+}
+createBank
+{
+createBank();
+
+vars
+	bank: Bank;
+begin
+	beginTransaction;
+	create bank persistent;
+	commitTransaction;
 end;
 }
 createChequeAccounts

@@ -5,26 +5,26 @@
 		<__patchControlString/>
 		<_aboutFormName/>
 		<_defaultLocaleId>0</_defaultLocaleId>
-		<_modifiedBy/>
-		<_modifiedTimestamp/>
+		<_modifiedBy>kaue</_modifiedBy>
+		<_modifiedTimestamp>2023:09:05:09:49:32.314</_modifiedTimestamp>
 		<_patchVersion>0</_patchVersion>
-		<_startupFormName>CustomerDetails</_startupFormName>
-		<_systemVersion/>
+		<_startupFormName>MainMenu</_startupFormName>
+		<_systemVersion>22.0.02</_systemVersion>
 		<aboutForm/>
 		<appVersion/>
 		<applicationType>G</applicationType>
-		<controlSpacing>0</controlSpacing>
+		<controlSpacing>4</controlSpacing>
 		<defaultApp>true</defaultApp>
 		<defaultMdi>false</defaultMdi>
 		<finalizeMethod/>
 		<fontBold>false</fontBold>
 		<fontName>Tahoma</fontName>
 		<fontSize>8.25</fontSize>
-		<formMargin>0</formMargin>
-		<heightSingleLineControl>0</heightSingleLineControl>
+		<formMargin>7</formMargin>
+		<heightSingleLineControl>14</heightSingleLineControl>
 		<helpFile/>
 		<icon/>
-		<initializeMethod/>
+		<initializeMethod name="initialize" />
 		<mdiStyle>0</mdiStyle>
 		<mdiWindowListOrder>0</mdiWindowListOrder>
 		<name>BankingViewSchema</name>
@@ -33,9 +33,9 @@
 		<useBorderStyleOnly>false</useBorderStyleOnly>
 		<webMinimumResponseTime>0</webMinimumResponseTime>
 		<threeDControls>
+			<GUIClass name="CheckBox" />
 			<GUIClass name="GroupBox" />
 			<GUIClass name="OptionButton" />
-			<GUIClass name="CheckBox" />
 		</threeDControls>
 	</Application>
 	<Form locale="5129" name="CustomerDetails">
@@ -668,6 +668,259 @@
 				<userScript/>
 				<visible>true</visible>
 				<width>54</width>
+				<wordWrap>false</wordWrap>
+			</Label>
+		</controlList>
+		<menuList>
+		</menuList>
+	</Form>
+	<Form locale="5129" name="Logon">
+		<allowDocking>0</allowDocking>
+		<backBrush/>
+		<backBrushStyle>0</backBrushStyle>
+		<backColor>-2147483633</backColor>
+		<borderStyle>2</borderStyle>
+		<bubbleHelp/>
+		<caption>Logon</caption>
+		<clientHeight>324</clientHeight>
+		<clientWidth>407</clientWidth>
+		<clipControls>true</clipControls>
+		<controlBox>true</controlBox>
+		<description/>
+		<disableReason/>
+		<dragCursor/>
+		<enabled>true</enabled>
+		<height>363</height>
+		<helpContextId>0</helpContextId>
+		<helpKeyword/>
+		<icon/>
+		<ignoreSkin>false</ignoreSkin>
+		<ignoreSkinAllControls>false</ignoreSkinAllControls>
+		<left>7</left>
+		<maxButton>true</maxButton>
+		<mdiChild>1</mdiChild>
+		<mdiFrame>false</mdiFrame>
+		<mdiPinned>false</mdiPinned>
+		<minButton>true</minButton>
+		<minimumHeight>0</minimumHeight>
+		<minimumWidth>0</minimumWidth>
+		<mouseCursor/>
+		<mousePointer>0</mousePointer>
+		<name>Logon</name>
+		<paintedDialogBaseUnits>1048584</paintedDialogBaseUnits>
+		<printerForm>false</printerForm>
+		<scaleForm>true</scaleForm>
+		<scrollBars>0</scrollBars>
+		<secureForm>false</secureForm>
+		<securityLevelEnabled>0</securityLevelEnabled>
+		<securityLevelVisible>0</securityLevelVisible>
+		<showMdiCloseAllButPinnedMenu>false</showMdiCloseAllButPinnedMenu>
+		<showMdiCloseAllButThisMenu>false</showMdiCloseAllButThisMenu>
+		<showMdiCloseMenu>false</showMdiCloseMenu>
+		<showMdiDockMenu>false</showMdiDockMenu>
+		<showMdiFloatMenu>false</showMdiFloatMenu>
+		<showMdiPinMenu>false</showMdiPinMenu>
+		<skinCategoryName/>
+		<tag/>
+		<top>38</top>
+		<userScript/>
+		<visible>true</visible>
+		<webBrowserAutoRefreshInterval>0</webBrowserAutoRefreshInterval>
+		<webBrowserAutoRefreshURL/>
+		<webBrowserDisableBackButton>false</webBrowserDisableBackButton>
+		<webEncodingType/>
+		<webFileName/>
+		<width>423</width>
+		<windowState>0</windowState>
+		<controlList>
+			<Button name="btnOK">
+				<autoSize>1</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<buttonPicture>0</buttonPicture>
+				<cancel>false</cancel>
+				<caption>OK</caption>
+				<default>true</default>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483630</foreColor>
+				<form name="Logon" />
+				<height>21</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>234</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>btnOK</name>
+				<parent name="Logon" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>120</parentBottomOffset>
+				<parentRightOffset>129</parentRightOffset>
+				<picture/>
+				<pictureDisabled/>
+				<pictureDown/>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<style>0</style>
+				<tabIndex>3</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<top>183</top>
+				<userScript/>
+				<value>false</value>
+				<visible>true</visible>
+				<webFileName/>
+				<width>44</width>
+			</Button>
+			<TextBox name="txtPassword">
+				<alignment>0</alignment>
+				<autoTab>false</autoTab>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483643</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>2</borderStyle>
+				<bubbleHelp/>
+				<case>0</case>
+				<dataType>0</dataType>
+				<decimals>0</decimals>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="Logon" />
+				<formatOut/>
+				<height>28</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hintBackColor>-2147483648</hintBackColor>
+				<hintForeColor>-2147483648</hintForeColor>
+				<hintText/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<integralHeight>false</integralHeight>
+				<left>129</left>
+				<maxLength>0</maxLength>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>txtPassword</name>
+				<parent name="Logon" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>153</parentBottomOffset>
+				<parentRightOffset>129</parentRightOffset>
+				<passwordField>true</passwordField>
+				<readOnly>false</readOnly>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<scrollBars>0</scrollBars>
+				<scrollHorizontal>false</scrollHorizontal>
+				<scrollVertical>false</scrollVertical>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<selectionStyle>0</selectionStyle>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>2</tabIndex>
+				<tabStop>true</tabStop>
+				<tag/>
+				<text/>
+				<textOffset>0</textOffset>
+				<top>143</top>
+				<userScript/>
+				<visible>true</visible>
+				<wantReturn>false</wantReturn>
+				<webInputType/>
+				<width>149</width>
+			</TextBox>
+			<Label name="passwordLabel">
+				<alignment>1</alignment>
+				<autoSize>true</autoSize>
+				<backBrush/>
+				<backBrushStyle>0</backBrushStyle>
+				<backColor>-2147483633</backColor>
+				<borderColorSingle>0</borderColorSingle>
+				<borderStyle>0</borderStyle>
+				<bubbleHelp/>
+				<caption>Enter the password</caption>
+				<description/>
+				<disableReason/>
+				<dragCursor/>
+				<enabled>true</enabled>
+				<focusBackColor>0</focusBackColor>
+				<focusForeColor>0</focusForeColor>
+				<fontBold>false</fontBold>
+				<fontItalic>false</fontItalic>
+				<fontName/>
+				<fontSize>8.25</fontSize>
+				<fontStrikethru>false</fontStrikethru>
+				<fontUnderline>false</fontUnderline>
+				<foreColor>-2147483640</foreColor>
+				<form name="Logon" />
+				<formatOut/>
+				<height>13</height>
+				<helpContextId>0</helpContextId>
+				<helpKeyword/>
+				<hyperlink/>
+				<ignoreSkin>false</ignoreSkin>
+				<index>0</index>
+				<left>129</left>
+				<mouseCursor/>
+				<mousePointer>0</mousePointer>
+				<name>passwordLabel</name>
+				<noPrefix>false</noPrefix>
+				<parent name="Logon" />
+				<parentAspect>0</parentAspect>
+				<parentBottomOffset>191</parentBottomOffset>
+				<parentRightOffset>184</parentRightOffset>
+				<relativeHeight>false</relativeHeight>
+				<relativeLeft>false</relativeLeft>
+				<relativeTop>false</relativeTop>
+				<relativeWidth>false</relativeWidth>
+				<securityLevelEnabled>0</securityLevelEnabled>
+				<securityLevelVisible>0</securityLevelVisible>
+				<show3D>3</show3D>
+				<skinCategoryName/>
+				<tabIndex>1</tabIndex>
+				<tabStop>false</tabStop>
+				<tag/>
+				<top>120</top>
+				<transparent>true</transparent>
+				<userScript/>
+				<visible>true</visible>
+				<width>94</width>
 				<wordWrap>false</wordWrap>
 			</Label>
 		</controlList>
