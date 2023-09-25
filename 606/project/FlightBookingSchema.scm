@@ -103,6 +103,18 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:01:40.240;
 		title:                         String[31] readonly, number = 2, ordinal = 2;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:00:32.611;
+	jadeMethodDefinitions
+		setPropertiesOnCreate(
+			pAddress: String; 
+			pDateOfBirth: Date; 
+			pEmail: String; 
+			pFullName: String; 
+			pNationality: String; 
+			pPassport: String; 
+			pPhoneNumber: String; 
+			pStaff: Boolean; 
+			pTitle: String) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:25:14:12:53.908;
 	)
 	Plane completeDefinition
 	(
@@ -165,3 +177,24 @@ databaseDefinitions
 		Ticket in "flightbook";
 	)
 typeSources
+	Passenger (
+	jadeMethodSources
+setPropertiesOnCreate
+{
+setPropertiesOnCreate(pAddress : String; pDateOfBirth : Date; pEmail : String; pFullName : String; pNationality : String; pPassport : String; pPhoneNumber : String; pStaff : Boolean; pTitle : String) updating;
+
+vars
+
+begin
+	self.address := pAddress;
+	self.dateOfBirth := pDateOfBirth;
+	self.email := pEmail;
+	self.fullName := pFullName;
+	self.nationality := pNationality;
+	self.passport := pPassport;
+	self.phoneNumber := pPhoneNumber;
+	self.staff := pStaff;
+	self.title := pTitle;
+end;
+}
+	)
