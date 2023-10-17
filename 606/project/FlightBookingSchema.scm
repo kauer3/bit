@@ -6,15 +6,15 @@ localeDefinitions
 	5129 "English (New Zealand)" schemaDefaultLocale;
 	setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:31:11.708;
 typeHeaders
-	Airport subclassOf Object highestOrdinal = 3, number = 2052;
-	FlightBookingSchema subclassOf RootSchemaApp transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2048;
-	Flight subclassOf Object highestOrdinal = 6, number = 2054;
-	FlightPath subclassOf Object highestOrdinal = 3, number = 2053;
-	GFlightBookingSchema subclassOf RootSchemaGlobal transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2049;
-	Passenger subclassOf Object highestOrdinal = 10, number = 2055;
-	Plane subclassOf Object highestOrdinal = 3, number = 2051;
-	Ticket subclassOf Object highestOrdinal = 7, number = 2056;
-	SFlightBookingSchema subclassOf RootSchemaSession transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2050;
+	Airport subclassOf Object highestOrdinal = 3, number = 2048;
+	FlightBookingSchema subclassOf RootSchemaApp transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2050;
+	Flight subclassOf Object highestOrdinal = 6, number = 2055;
+	FlightPath subclassOf Object highestOrdinal = 3, number = 2059;
+	GFlightBookingSchema subclassOf RootSchemaGlobal transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2070;
+	Passenger subclassOf Object highestOrdinal = 10, number = 2071;
+	Plane subclassOf Object highestOrdinal = 3, number = 2072;
+	Ticket subclassOf Object highestOrdinal = 7, number = 2073;
+	SFlightBookingSchema subclassOf RootSchemaSession transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2074;
 membershipDefinitions
 typeDefinitions
 	Object completeDefinition
@@ -30,6 +30,12 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:52:33.107;
 		code:                          String[4] readonly, number = 1, ordinal = 1;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:51:27.969;
+	jadeMethodDefinitions
+		setPropertiesOnCreate(
+			pCode: String; 
+			pCityName: String; 
+			pCityCode: String) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:11:45:29.424;
 	)
 	Application completeDefinition
 	(
@@ -57,6 +63,15 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:58:29.533;
 		time:                          Time readonly, number = 2, ordinal = 2;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:57:18.116;
+	jadeMethodDefinitions
+		setPropertiesOnCreate(
+			pDate: Date; 
+			pFlightPath: Integer; 
+			pFlightStatus: String; 
+			pId: Integer; 
+			pPlane: String; 
+			pTime: Time) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:11:54:48.452;
 	)
 	FlightPath completeDefinition
 	(
@@ -68,6 +83,12 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:56:08.087;
 		id:                            Integer readonly, number = 1, ordinal = 1;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:55:27.519;
+	jadeMethodDefinitions
+		setPropertiesOnCreate(
+			pId: Integer; 
+			pDepartureAirport: String; 
+			pArrivalAirport: String) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:12:01:29.353;
 	)
 	Global completeDefinition
 	(
@@ -114,7 +135,7 @@ typeDefinitions
 			pPhoneNumber: String; 
 			pStaff: Boolean; 
 			pTitle: String) updating, number = 1001;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:25:14:12:53.908;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:11:43:27.907;
 	)
 	Plane completeDefinition
 	(
@@ -126,10 +147,16 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:44:34.535;
 		type:                          String[26] readonly, number = 1, ordinal = 1;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:10:37:51.332;
+	jadeMethodDefinitions
+		setPropertiesOnCreate(
+			pType: String; 
+			pSize: String; 
+			pNumberOfSeats: Integer) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:11:41:45.407;
 	)
 	Ticket completeDefinition
 	(
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:07:12.952;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:11:58:23.341;
 	attributeDefinitions
 		baggage:                       String[26] readonly, number = 5, ordinal = 5;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:09:28.214;
@@ -143,8 +170,18 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:10:12.726;
 		price:                         Decimal[12] readonly, number = 7, ordinal = 7;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:10:35.330;
-		seatNumber:                    String[9] readonly, number = 4, ordinal = 4;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:14:11:08:59.721;
+		seatNumber:                    Integer readonly, number = 4, ordinal = 4;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:12:12:00.511;
+	jadeMethodDefinitions
+		setPropertiesOnCreate(
+			pId: Integer; 
+			pFlightId: Integer; 
+			pPassengerId: Integer; 
+			pBaggage: String; 
+			pPrice: Decimal; 
+			pPaymentStatus: String; 
+			pSeatNumber: Integer) updating, number = 1001;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:17:12:12:13.594;
 	)
 	WebSession completeDefinition
 	(
@@ -177,13 +214,53 @@ databaseDefinitions
 		Ticket in "flightbook";
 	)
 typeSources
+	Airport (
+	jadeMethodSources
+setPropertiesOnCreate
+{
+setPropertiesOnCreate(pCode : String ; pCityName : String ; pCityCode : String) updating;
+
+begin
+	self.code := pCode;
+	self.cityCode := pCityCode;
+	self.cityName := pCityName;
+end;
+}
+	)
+	Flight (
+	jadeMethodSources
+setPropertiesOnCreate
+{
+setPropertiesOnCreate(pDate : Date; pFlightPath : Integer; pFlightStatus: String; pId: Integer; pPlane: String; pTime: Time) updating;
+
+begin
+	self.date := pDate;
+	self.flightPath := pFlightPath;
+	self.flightStatus := pFlightStatus;
+	self.id := pId;
+	self.plane := pPlane;
+	self.time := pTime;
+end;
+}
+	)
+	FlightPath (
+	jadeMethodSources
+setPropertiesOnCreate
+{
+setPropertiesOnCreate(pId: Integer; pDepartureAirport: String; pArrivalAirport: String) updating;
+
+begin
+	self.id := pId;
+	self.departureAirport := pDepartureAirport;
+	self.arrivalAirport := pArrivalAirport;
+end;
+}
+	)
 	Passenger (
 	jadeMethodSources
 setPropertiesOnCreate
 {
 setPropertiesOnCreate(pAddress : String; pDateOfBirth : Date; pEmail : String; pFullName : String; pNationality : String; pPassport : String; pPhoneNumber : String; pStaff : Boolean; pTitle : String) updating;
-
-vars
 
 begin
 	self.address := pAddress;
@@ -195,6 +272,36 @@ begin
 	self.phoneNumber := pPhoneNumber;
 	self.staff := pStaff;
 	self.title := pTitle;
+end;
+}
+	)
+	Plane (
+	jadeMethodSources
+setPropertiesOnCreate
+{
+setPropertiesOnCreate(pType: String; pSize: String; pNumberOfSeats:Integer) updating;
+
+begin
+	self.type := pType;
+	self.size := pSize;
+	self.numberOfSeats := pNumberOfSeats;
+end;
+}
+	)
+	Ticket (
+	jadeMethodSources
+setPropertiesOnCreate
+{
+setPropertiesOnCreate(pId: Integer; pFlightId: Integer; pPassengerId: Integer; pBaggage: String; pPrice: Decimal; pPaymentStatus: String; pSeatNumber: Integer) updating;
+
+begin
+	self.id := pId;
+	self.flightId := pFlightId;
+	self.passengerId := pPassengerId;
+	self.baggage := pBaggage;
+	self.price:= pPrice;
+	self.paymentStatus := pPaymentStatus;
+	self.seatNumber := pSeatNumber;
 end;
 }
 	)
