@@ -1,0 +1,58 @@
+JadeVersionNumber 6.0.16
+Platform WindowsNT 5.0 
+Encoding ANSI 
+Version 6/6.0.16 28/UVJEXUlsdmVncWc1ZUNidWtseg==
+Schema BankingViewSchema PartialDefinition
+Locales 5129 
++++++DevControlDefinitions 
+<<<<<InstanceData 
+^^^^^DevControlTypes 
+156/DevControlTypes bitmap Binary -1 bitmapID Integer 4 hiddenEvents StringArray 6 hideFromPainterControlPalette Boolean 1 name String 31 windowClass String -1 
+1092/1766.105 13/ThreeDeeGraph 1024/AAABAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAgAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACAAAAAgIAAgAAAAIAAgACAgAAAwMDAAICAgAAAAP8AAP8AAAD//wD/AAAA/wD/AP//AAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAQAAAQAAAAAAAAAREREREREREREREQAAAAAAERERERERERERERHd3d3dwBECd3Q/6qg/7uw//////cARAmd0P+qoP+7sP/////3AEQJndD/qqD/u7D/////9wBEAJnQ/6qg/7uw//////cARADZkP+qoP+7sP/////3AEQA3ZD/qqD/u7D/////9wBEAN2Z/6qg+Zuw//////cARADd2Z+qoJmZsP/////3AEQA3dCZqpmfmZD/////9wBEAN3Q+ZmQ/7mQ//////cARADd3/+ZoP+5kP/////3AEQA3d//qqD/u5n/////9wBEAACP/6qg/7uZ//////cARAAAj/+qoP+7sJ/////3AEQAAI//qq//u7CZ////9wBEAACP/6qv/7uwmf////cARAAAj/////+7sPmf///3AEQAAI//////u7D/////9wBEAACP/////7u///////cAAAAAj/////+7v//////3AAAAAI///////////4AAAAAAAACP//////////+P94AAAAAAj///////////j3gAAAAAAI///////////4eAAAAAAACP//////////+IAAAAAAAAj///////////gAAAAAAAAIiIiIiIiIiIiIAAAAD+++//gAAD/4AAA/8AAAABAAAAAQAAAAEAAAABAAAAARAAAAEQAAABEAAAARAAAAEQAAABEAAAARAAAAEQAAABEAAAARwAAAEcAAABHAAAARwAAAEcAAABPAAAATwAAAH8AAAB/AAAAfwAAAP8AAAH/AAAD/wAAB/8AAA//AAAfw== 0 0/ 0 13/ThreeDeeGraph 9/AlPicture 
+*****DevControlTypes 
+^^^^^DevControlProperties 
+107/DevControlProperties cntrlType Integer 4 name String 31 optionsList StringArray 6 parent DevControlTypes 6 
+*ThreeDeeGraph
+48/1765.4235 9/backColor 7 9/backColor 0/ 1766.105 
+87/1765.4236 11/borderStyle 100 11/borderStyle 30/8/0 - None 16/1 - Fixed single 1766.105 
+53/1765.4237 10/bubbleHelp 16 10/bubbleHelp 0/ 1766.105 
+56/1765.4238 12/clipControls 3 12/clipControls 0/ 1766.105 
+55/1765.4239 11/description 16 11/description 0/ 1766.105 
+53/1765.4240 10/dragCursor 11 10/dragCursor 0/ 1766.105 
+44/1765.4241 7/enabled 3 7/enabled 0/ 1766.105 
+43/1765.4242 6/height 14 6/height 0/ 1766.105 
+58/1765.4243 13/helpContextId 5 13/helpContextId 0/ 1766.105 
+54/1765.4244 11/helpKeyword 2 11/helpKeyword 0/ 1766.105 
+48/1765.4245 9/hyperlink 2 9/hyperlink 0/ 1766.105 
+39/1765.4246 4/left 14 4/left 0/ 1766.105 
+55/1765.4247 11/mouseCursor 11 11/mouseCursor 0/ 1766.105 
+268/1765.4248 12/mousePointer 100 12/mousePointer 208/12/ 0 - Default 10/ 1 - Arrow 10/ 2 - Cross 11/ 3 - I-Beam 11/ 4 - Cursor 9/ 5 - Size 15/ 6 - Size NE SW 13/ 7 - Size N S 15/ 8 - Size NW SE 13/ 9 - Size W E 13/10 - Up Arrow 14/11 - HourGlass 12/12 - No Drop 1766.105 
+38/1765.4249 4/name 1 4/name 0/ 1766.105 
+45/1765.4250 6/parent -102 6/parent 0/ 1766.105 
+45/1765.4251 7/picture 11 7/picture 0/ 1766.105 
+63/1765.4252 15/pictureDisabled 11 15/pictureDisabled 0/ 1766.105 
+55/1765.4253 11/pictureDown 11 11/pictureDown 0/ 1766.105 
+60/1765.4254 14/relativeHeight 3 14/relativeHeight 0/ 1766.105 
+56/1765.4255 12/relativeLeft 3 12/relativeLeft 0/ 1766.105 
+54/1765.4256 11/relativeTop 3 11/relativeTop 0/ 1766.105 
+58/1765.4257 13/relativeWidth 3 13/relativeWidth 0/ 1766.105 
+47/1765.4258 8/rotation 10 8/rotation 0/ 1766.105 
+110/1765.4259 10/scrollBars 100 10/scrollBars 55/8/0 - None 14/1 - Horizontal 12/2 - Vertical 8/3 - Both 1766.105 
+72/1765.4260 20/securityLevelEnabled 4 20/securityLevelEnabled 0/ 1766.105 
+72/1765.4261 20/securityLevelVisible 4 20/securityLevelVisible 0/ 1766.105 
+103/1765.4262 6/show3D 100 6/show3D 58/27/0 - use application default 10/1 - Not 3D 10/2 - Use 3D 1766.105 
+223/1765.4263 7/stretch 100 7/stretch 175/8/0 - None 22/1 - Picture to Control 22/2 - Control to Picture 35/3 - Control Proportional to Picture 35/4 - Picture Proportional to Control 31/5 - Picture Centered on Control 1766.105 
+46/1765.4264 8/tabIndex 4 8/tabIndex 0/ 1766.105 
+44/1765.4265 7/tabStop 3 7/tabStop 0/ 1766.105 
+36/1765.4266 3/tag 2 3/tag 0/ 1766.105 
+40/1765.4267 5/title 2 5/title 0/ 1766.105 
+37/1765.4268 3/top 14 3/top 0/ 1766.105 
+54/1765.4269 11/transparent 3 11/transparent 0/ 1766.105 
+64/1765.4270 16/transparentColor 7 16/transparentColor 0/ 1766.105 
+44/1765.4271 7/visible 3 7/visible 0/ 1766.105 
+41/1765.4272 5/width 14 5/width 0/ 1766.105 
+42/1765.4273 6/xLabel 2 6/xLabel 0/ 1766.105 
+42/1765.4274 6/yLabel 2 6/yLabel 0/ 1766.105 
+*****DevControlProperties 
+>>>>>InstanceData 
+-----DevControlDefinitions 

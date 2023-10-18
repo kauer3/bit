@@ -1,0 +1,135 @@
+JadeVersionNumber 5.2.08
+Platform WindowsNT 5
+Version 6/5.2.08 14/?/63N=YcUOdad\
+Schema MultithreadLifts CompleteDefinition
+Locales 5129 
++++++AppGlobalDefinitions 
+<<<<<InstanceData 
+^^^^^Application 
+1398/Application _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _aboutFormName String 31 _defaultLocaleId Integer 4 _externalDatabases ExternalDatabaseByNameDict 6 _internetPipe Connection 6 _internetPipeName String 31 _numberOfPipes Integer 4 _propertyBag Binary -1 _startupFormName String 31 _webAppDirectory String -1 _webBaseURL String -1 _webDisplayMessages Boolean 1 _webDisplayPreference Character 1 _webEnabled Boolean 1 _webEventClasses ClassColl 6 _webFinalizeMethod JadeMethod 6 _webInitializeMethod JadeMethod 6 _webMaxHTMLSize Integer 4 _webMethodExecutionPrefix String 31 _webSession WebSession 6 _webSessionManager WebSessionManager 6 _webSessionTimeout Integer 4 _webShowModal Boolean 1 _webStartupForm Form 6 _webStartupFormName String 31 _webStatusLineDisplay String -1 _webUseHTML32 Boolean 1 aboutForm Form 6 appVersion String 10 applicationType Character 1 controlSpacing Integer 4 currentLocale Locale 6 currentLocaleInfo LocaleFullInfo 6 defaultApp Boolean 1 defaultMdi Boolean 1 finalizeMethod Method 6 fontBold Boolean 1 fontName String 31 fontSize Real 8 formMargin Integer 4 heightSingleLineControl Integer 4 helpFile String -1 icon Binary -1 initializeMethod Method 6 jadeJavaManager JadeJavaManager 6 name String 31 printer Printer 6 schema Schema 6 showBubbleHelp Boolean 1 startupForm Form 6 threeDControls ClassColl 6 webMinimumResponseTime Integer 4 
+289/1462.48 Building 1425.48.1462.1.1 1425.48.1462.1.2 0/ 0 1493.48.1462.2.1 0.0 0/ 0 0/ 12/BuildingForm 0/ 0/ 0 0/ 0 1436.48.1462.2.4 0/ 0/ 0 0/ 0.0 0.0 0 0 0.0 0/ 0/ 0 0.0 0/ 1/G 4 0.0 0.0 0 0 0/ 0 13/MS Sans Serif 8.25 7 14 0/ 0/ 0/ 0.0 8/Building 0.0 1280.28 0 1468.260 1436.48.1462.2.9 0 
+263/1462.49 Lift 1425.49.1462.1.1 1425.49.1462.1.2 0/ 0 1493.49.1462.2.1 0.0 0/ 0 0/ 0/ 0/ 0/ 0 0/ 0 1436.49.1462.2.4 0/ 0/ 0 0/ 0.0 0.0 0 0 0.0 0/ 0/ 0 0.0 0/ 1/G 4 0.0 0.0 1 0 0/ 0 13/MS Sans Serif 8.25 7 14 0/ 0/ 0/ 0.0 4/Lift 0.0 1280.28 0 0.0 1436.49.1462.2.9 0 
+288/1462.47 MultithreadLifts 1425.47.1462.1.1 1425.47.1462.1.2 0/ 0 1493.47.1462.2.1 0.0 0/ 0 0/ 0/ 0/ 0/ 0 0/ 0 1436.47.1462.2.4 0/ 0/ 0 0/ 0.0 0.0 0 0 0.0 0/ 0/ 0 0.0 0/ 1/G 4 0.0 0.0 1 0 0/ 0 13/MS Sans Serif 8.25 7 14 0/ 0/ 0/ 0.0 16/MultithreadLifts 0.0 1280.28 0 0.0 1436.47.1462.2.9 0 
+*****Application
+^^^^^Class 
+6/Class 
+14/5.10 CheckBox 
+14/5.14 GroupBox 
+18/5.26 OptionButton 
+*****Class 
+>>>>>InstanceData 
+<<<<<CollectionData 
+^^^^^Application 
+68/Application threeDControls ClassColl 6 _webEventClasses ClassColl 6 
+41/1462.48 Application 14/5.10 5.14 5.26 0/ 
+41/1462.49 Application 14/5.10 5.14 5.26 0/ 
+41/1462.47 Application 14/5.14 5.26 5.10 0/ 
+*****Application 
+>>>>>CollectionData 
+<<<<<FixupData 
+>>>>>FixupData 
+-----AppGlobalDefinitions
++++++FormDefinitions 
+<<<<<InstanceData 
+^^^^^Form 
+1275/Form _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _createdControls ControlOrdList 6 _eventMappings Binary -1 _modifiedTimeStamp TimeStamp 8 _saveControlData ObjectNameDict 6 applications AppNameDict 6 backBrush Binary -1 caption String 256 clientHeight Integer 4 clientWidth Integer 4 clipControls Boolean 1 controlBox Boolean 1 controlList ControlOrdList 6 icon Binary -1 locale Locale 6 maxButton Boolean 1 mdiChild Integer 4 mdiFrame Boolean 1 menuList MenuOrdList 6 minButton Boolean 1 paintedDialogBaseUnits Integer 4 printerForm Boolean 1 scaleForm Boolean 1 scrollBars Integer 4 secureForm Boolean 1 userProfile UserProfile 6 webEncodingType Character 1 webFileName String -1 webForm Boolean 1 windowState Integer 4 
+Locale 5129
+144/grpInfo chkMultithread txtLifts txtFloors lblFloors lblLifts fraMessage lblMultithread lblLiftsInfo lblFloorsInfo btnStartNew lblSpeed scrSpeed 
+341/1468.260 BuildingForm 1425.260.1468.1.1 1425.260.1468.1.2 0 0/ 0/ 0/ 5411930 2 0/ 0/ 0/ 0/ 1 243 0 0/ 0 0/ 0 12/BuildingForm 0 0 0/ 0 0.0 0/ 1 206 1583.260.1468.3.1 0/ 21/24 May 2002, 10:50:12 1601.260.1468.3.2 1413.260.1468.3.3 0/ 8/Building 216 198 1 1 1583.260.1468.3.4 0/ 1324.298 0 1 0 1588.260.1468.3.5 0 1048584 0 1 0 0 0.0 0/ 0/ 0 0 
+Locale 5129
+8/fraLift 
+323/1468.261 LiftForm 1425.261.1468.1.1 1425.261.1468.1.2 0 0/ 0/ 0/ 5411930 1 0/ 0/ 0/ 0/ 1 110 0 0/ 0 0/ 0 8/LiftForm 0 0 0/ 0 0.0 0/ 1 110 1583.261.1468.3.1 0/ 21/24 May 2002, 10:50:12 1601.261.1468.3.2 1413.261.1468.3.3 0/ 0/ 85 104 1 1 1583.261.1468.3.4 0/ 1324.298 0 1 0 1588.261.1468.3.5 0 1048584 0 1 0 0 0.0 0/ 0/ 0 0 
+*****Form 
+^^^^^Button
+1221/Button _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 autoSize Integer 4 buttonPicture Integer 4 cancel Boolean 1 caption String -1 default Boolean 1 picture Binary -1 pictureDisabled Binary -1 pictureDown Binary -1 style Integer 4 value Boolean 1 webFileName String -1 
+265/1770.371 btnStartNew 1425.371.1770.1.1 1425.371.1770.1.2 0 0/ 0/ 0/ -2147483633 0 0/ 0/ 0/ 0/ 1 22 0 0/ 79 0/ 0 11/btnStartNew 0 0 0/ 132 0.0 0/ 1 47 0/ 1703.371.1770.3.1 0 0 0/ 8.25 0 0 -2147483630 1468.260 0 1775.185 0 0 0 0 0 9 1 1 0 0 5/Start 1 0/ 0/ 0/ 0 0 0/ 
+*****Button
+^^^^^CheckBox
+1102/CheckBox _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 alignment Integer 4 caption String -1 readOnly Boolean 1 transparent Boolean 1 value Boolean 1 
+257/1771.134 chkMultithread 1425.134.1771.1.1 1425.134.1771.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 17 0 0/ 25 0/ 0 14/chkMultithread 0 0 0/ 62 0.0 0/ 1 91 0/ 1703.134.1771.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 6 1 0 14/Multi-Threaded 0 0 1 
+*****CheckBox
+^^^^^Frame
+1428/Frame _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 _createdControls ControlOrdList 6 _generatedHTML String -1 alignChildren Integer 4 alignContainer Integer 4 alignment Integer 4 bevelColor Integer 4 bevelInner Integer 4 bevelInnerWidth Integer 4 bevelOuter Integer 4 bevelOuterWidth Integer 4 bevelShadowColor Integer 4 boundaryBrush Integer 4 boundaryColor Integer 4 boundaryWidth Integer 4 caption String -1 clipControls Boolean 1 transparent Boolean 1 wordWrap Boolean 1 
+311/1774.62 fraMessage 1425.62.1774.1.1 1425.62.1774.1.2 0 0/ 0/ 0/ -2147483633 1 0/ 0/ 0/ 0/ 1 21 0 0/ 2 0/ 0 10/fraMessage 0 0 0/ 161 0.0 0/ 1 150 0/ 1703.62.1774.3.1 0 0 0/ 8.25 0 0 -2147483640 1468.260 0 1775.185 0 0 0 0 0 14 0 1583.62.1774.4.1 0/ 0 0 0 -2147483628 1 1 2 1 -2147483632 0 -2147483633 1 0/ 1 0 1 
+300/1774.63 fraLift 1425.63.1774.1.1 1425.63.1774.1.2 0 0/ 0/ 0/ -2147483633 1 0/ 0/ 0/ 0/ 1 30 0 0/ 0 0/ 0 7/fraLift 0 0 0/ 0 0.0 0/ 1 55 0/ 1703.63.1774.3.1 0 0 0/ 8.25 0 0 -2147483640 1468.261 0 1468.261 0 0 0 0 0 9 0 1583.63.1774.4.1 0/ 0 0 0 -2147483628 1 1 2 1 -2147483632 1 -2147483633 1 0/ 1 0 1 
+*****Frame
+^^^^^GroupBox
+1070/GroupBox _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 caption String -1 clipControls Boolean 1 transparent Boolean 1 
+227/1775.185 grpInfo 1425.185.1775.1.1 1425.185.1775.1.2 0 0/ 0/ 0/ 5411930 1 0/ 0/ 0/ 0/ 1 183 0 0/ 0 0/ 0 7/grpInfo 0 0 0/ 30 0.0 0/ 1 153 0/ 1703.185.1775.3.1 0 0 0/ 8.25 0 0 -2147483640 1468.260 0 1468.260 0 0 0 0 0 1 0 0/ 1 0 
+*****GroupBox
+^^^^^HScroll
+1094/HScroll _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 largeChange Integer 4 max Integer 4 min Integer 4 smallChange Integer 4 value Integer 4 
+228/1776.6 scrSpeed 1425.6.1776.1.1 1425.6.1776.1.2 0 0/ 0/ 0/ -2147483633 0 0/ 0/ 0/ 0/ 1 14 0 0/ 24 0/ 0 8/scrSpeed 0 0 0/ 96 0.0 0/ 1 102 0/ 1703.6.1776.3.1 0 0 0/ 8.25 0 0 -2147483630 1468.260 0 1775.185 0 0 0 0 0 7 1 1 4 0 1 2 
+*****HScroll
+^^^^^Label
+1142/Label _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 alignment Integer 4 autoSize Boolean 1 caption String -1 formatOut String 31 hyperlink String -1 transparent Boolean 1 wordWrap Boolean 1 
+254/1777.992 lblFloors 1425.992.1777.1.1 1425.992.1777.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 22 0 0/ 22 0/ 0 9/lblFloors 0 0 0/ 9 0.0 0/ 1 87 0/ 1703.992.1777.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 2 0 1 0 17/Number of Floors: 0/ 0/ 0 0 
+252/1777.993 lblLifts 1425.993.1777.1.1 1425.993.1777.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 22 0 0/ 22 0/ 0 8/lblLifts 0 0 0/ 33 0.0 0/ 1 77 0/ 1703.993.1777.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 4 0 1 0 16/Number of Lifts: 0/ 0/ 0 0 
+249/1777.994 lblMultithread 1425.994.1777.1.1 1425.994.1777.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 22 0 0/ 4 0/ 0 14/lblMultithread 0 0 0/ 62 0.0 0/ 1 143 0/ 1703.994.1777.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 12 0 7 0 0/ 0/ 0/ 0 0 
+245/1777.995 lblLiftsInfo 1425.995.1777.1.1 1425.995.1777.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 22 0 0/ 4 0/ 0 12/lblLiftsInfo 0 0 0/ 35 0.0 0/ 1 143 0/ 1703.995.1777.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 11 0 7 0 0/ 0/ 0/ 0 0 
+246/1777.996 lblFloorsInfo 1425.996.1777.1.1 1425.996.1777.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 22 0 0/ 4 0/ 0 13/lblFloorsInfo 0 0 0/ 8 0.0 0/ 1 143 0/ 1703.996.1777.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 10 0 7 0 0/ 0/ 0/ 0 0 
+265/1777.997 lblSpeed 1425.997.1777.1.1 1425.997.1777.1.2 0 0/ 0/ 0/ 5411930 0 0/ 0/ 0/ 0/ 1 17 0 0/ 22 0/ 0 8/lblSpeed 0 0 0/ 109 0.0 0/ 1 102 0/ 1703.997.1777.3.1 0 0 0/ 8.25 0 0 16777215 1468.260 0 1775.185 0 0 0 0 0 8 0 1 0 27/Slow                   Fast 0/ 0/ 1 0 
+*****Label
+^^^^^TextBox
+1343/TextBox _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 _hwnd Integer 4 _hyperText String -1 _sysDHTMLScript String -1 _webEventMappings String -1 backColor Integer 4 borderStyle Integer 4 bubbleHelp String -1 description String -1 disableReason String -1 dragCursor Binary -1 enabled Boolean 1 height Real 8 helpContextId Integer 4 helpKeyword String -1 left Real 8 mouseCursor Binary -1 mousePointer Integer 4 name String 31 securityLevelEnabled Integer 4 securityLevelVisible Integer 4 tag String -1 top Real 8 userObject Object 6 userScript String -1 visible Boolean 1 width Real 8 _eventMappings Binary -1 _implementedEvents ObjectLongNameDict 6 fontBold Boolean 1 fontItalic Boolean 1 fontName String 31 fontSize Real 8 fontStrikethru Boolean 1 fontUnderline Boolean 1 foreColor Integer 4 form Form 6 index Integer 4 parent Window 6 relativeHeight Boolean 1 relativeLeft Boolean 1 relativeTop Boolean 1 relativeWidth Boolean 1 show3D Integer 4 tabIndex Integer 4 tabStop Boolean 1 alignment Integer 4 autoTab Boolean 1 case Integer 4 dataType Integer 4 decimals Integer 4 formatOut String 31 integralHeight Boolean 1 maxLength Integer 4 passwordField Boolean 1 readOnly Boolean 1 scrollBars Integer 4 scrollHorizontal Boolean 1 scrollVertical Boolean 1 selectionStyle Integer 4 text String -1 webInputType Character 1 
+262/1788.304 txtLifts 1425.304.1788.1.1 1425.304.1788.1.2 0 0/ 0/ 0/ -2147483643 1 0/ 0/ 0/ 0/ 1 17 0 0/ 109 0/ 0 8/txtLifts 0 0 0/ 36 0.0 0/ 1 19 0/ 1703.304.1788.3.1 0 0 0/ 8.25 0 0 -2147483640 1468.260 0 1775.185 0 0 0 0 0 5 1 2 0 0 1 0 0/ 0 0 0 0 0 0 0 2 1/1 0/ 
+264/1788.305 txtFloors 1425.305.1788.1.1 1425.305.1788.1.2 0 0/ 0/ 0/ -2147483643 1 0/ 0/ 0/ 0/ 1 17 0 0/ 109 0/ 0 9/txtFloors 0 0 0/ 12 0.0 0/ 1 19 0/ 1703.305.1788.3.1 0 0 0/ 8.25 0 0 -2147483640 1468.260 0 1775.185 0 0 0 0 0 3 1 2 0 0 1 0 0/ 0 0 0 0 0 0 0 2 1/2 0/ 
+*****TextBox
+>>>>>InstanceData 
+<<<<<FixupData 
+>>>>>FixupData 
+-----FormDefinitions 
++++++DevControlDefinitions 
+<<<<<InstanceData 
+^^^^^DevControlTypes 
+322/DevControlTypes _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 guiClasses ClassNDict 6 bitmap Binary -1 bitmapID Integer 4 controlPropsNameDict ControlPropNameDict 6 hiddenEvents StringArray 6 hideFromPainterControlPalette Boolean 1 logicTypesSet ControlLogicSet 6 name String 31 windowClass String -1 
+465/1766.66 ControlButton 1425.66.1766.1.1 1425.66.1766.1.2 1394.66.1766.3.1 318/         (     (                À                         €  €   €€ €   € € €€  €€€ ÀÀÀ   ÿ  ÿ   ÿÿ ÿ   ÿ ÿ ÿÿ  ÿÿÿ                          wwwwww  ÷wwwww  ÿˆˆˆˆw  ÿˆˆˆˆw  ÿˆˆˆˆw  ÿˆˆˆˆw  ÿˆˆˆˆw  ÿˆˆˆˆw  ÿÿÿÿÿw  ÿÿÿÿÿ÷                         ÿÿ  ÿÿ  €  €  €  €  €  €  €  €  €  €  €  €  ÿÿ  ÿÿ   0 1584.66.1766.4.1 0/ 0 1585.66.1766.4.2 13/ControlButton 8/AlButton 
+*****DevControlTypes 
+^^^^^DevControlProperties 
+174/DevControlProperties _persistentImpRefs ReferenceSet 6 _transientImpRefs ReferenceSet 6 cntrlType Integer 4 name String 31 optionsList StringArray 6 parent DevControlTypes 6 
+*ControlButton
+145/1765.3265 autoSize 1425.3265.1765.1.1 1425.3265.1765.1.2 100 8/autoSize 61/8/0 - None 21/1 - Picture to Button 22/2 - Button  to Picture 1766.66 
+83/1765.3266 backColor 1425.3266.1765.1.1 1425.3266.1765.1.2 7 9/backColor 0/ 1766.66 
+87/1765.3267 bubbleHelp 1425.3267.1765.1.1 1425.3267.1765.1.2 16 10/bubbleHelp 0/ 1766.66 
+237/1765.3268 buttonPicture 1425.3268.1765.1.1 1425.3268.1765.1.2 100 13/buttonPicture 141/8/0 - None 8/1 - Tick 9/2 - Cross 6/3 - No 13/4 - Stop Sign 17/5 - Question Mark 20/6 - Exclamation Mark 12/7 - Asterisk 8/8 - Door 7/9 - Bin 1766.66 
+77/1765.3269 cancel 1425.3269.1765.1.1 1425.3269.1765.1.2 3 6/cancel 0/ 1766.66 
+80/1765.3270 caption 1425.3270.1765.1.1 1425.3270.1765.1.2 16 7/caption 0/ 1766.66 
+79/1765.3271 default 1425.3271.1765.1.1 1425.3271.1765.1.2 3 7/default 0/ 1766.66 
+89/1765.3272 description 1425.3272.1765.1.1 1425.3272.1765.1.2 16 11/description 0/ 1766.66 
+87/1765.3273 dragCursor 1425.3273.1765.1.1 1425.3273.1765.1.2 11 10/dragCursor 0/ 1766.66 
+79/1765.3274 enabled 1425.3274.1765.1.1 1425.3274.1765.1.2 3 7/enabled 0/ 1766.66 
+81/1765.3275 fontBold 1425.3275.1765.1.1 1425.3275.1765.1.2 3 8/fontBold 0/ 1766.66 
+86/1765.3276 fontItalic 1425.3276.1765.1.1 1425.3276.1765.1.2 3 10/fontItalic 0/ 1766.66 
+81/1765.3277 fontName 1425.3277.1765.1.1 1425.3277.1765.1.2 8 8/fontName 0/ 1766.66 
+81/1765.3278 fontSize 1425.3278.1765.1.1 1425.3278.1765.1.2 9 8/fontSize 0/ 1766.66 
+94/1765.3279 fontStrikethru 1425.3279.1765.1.1 1425.3279.1765.1.2 3 14/fontStrikethru 0/ 1766.66 
+92/1765.3280 fontUnderline 1425.3280.1765.1.1 1425.3280.1765.1.2 3 13/fontUnderline 0/ 1766.66 
+83/1765.3281 foreColor 1425.3281.1765.1.1 1425.3281.1765.1.2 7 9/foreColor 0/ 1766.66 
+78/1765.3282 height 1425.3282.1765.1.1 1425.3282.1765.1.2 14 6/height 0/ 1766.66 
+92/1765.3283 helpContextId 1425.3283.1765.1.1 1425.3283.1765.1.2 4 13/helpContextId 0/ 1766.66 
+88/1765.3284 helpKeyword 1425.3284.1765.1.1 1425.3284.1765.1.2 2 11/helpKeyword 0/ 1766.66 
+74/1765.3285 left 1425.3285.1765.1.1 1425.3285.1765.1.2 14 4/left 0/ 1766.66 
+89/1765.3286 mouseCursor 1425.3286.1765.1.1 1425.3286.1765.1.2 11 11/mouseCursor 0/ 1766.66 
+302/1765.3287 mousePointer 1425.3287.1765.1.1 1425.3287.1765.1.2 100 12/mousePointer 208/12/ 0 - Default 10/ 1 - Arrow 10/ 2 - Cross 11/ 3 - I-Beam 11/ 4 - Cursor 9/ 5 - Size 15/ 6 - Size NE SW 13/ 7 - Size N S 15/ 8 - Size NW SE 13/ 9 - Size W E 13/10 - Up Arrow 14/11 - HourGlass 12/12 - No Drop 1766.66 
+73/1765.3288 name 1425.3288.1765.1.1 1425.3288.1765.1.2 1 4/name 0/ 1766.66 
+80/1765.3289 parent 1425.3289.1765.1.1 1425.3289.1765.1.2 -102 6/parent 0/ 1766.66 
+80/1765.3290 picture 1425.3290.1765.1.1 1425.3290.1765.1.2 11 7/picture 0/ 1766.66 
+97/1765.3291 pictureDisabled 1425.3291.1765.1.1 1425.3291.1765.1.2 11 15/pictureDisabled 0/ 1766.66 
+89/1765.3292 pictureDown 1425.3292.1765.1.1 1425.3292.1765.1.2 11 11/pictureDown 0/ 1766.66 
+94/1765.3293 relativeHeight 1425.3293.1765.1.1 1425.3293.1765.1.2 3 14/relativeHeight 0/ 1766.66 
+90/1765.3294 relativeLeft 1425.3294.1765.1.1 1425.3294.1765.1.2 3 12/relativeLeft 0/ 1766.66 
+88/1765.3295 relativeTop 1425.3295.1765.1.1 1425.3295.1765.1.2 3 11/relativeTop 0/ 1766.66 
+92/1765.3296 relativeWidth 1425.3296.1765.1.1 1425.3296.1765.1.2 3 13/relativeWidth 0/ 1766.66 
+106/1765.3297 securityLevelEnabled 1425.3297.1765.1.1 1425.3297.1765.1.2 4 20/securityLevelEnabled 0/ 1766.66 
+106/1765.3298 securityLevelVisible 1425.3298.1765.1.1 1425.3298.1765.1.2 4 20/securityLevelVisible 0/ 1766.66 
+157/1765.3299 style 1425.3299.1765.1.1 1425.3299.1765.1.2 100 5/style 79/22/0 - Normal Push Button 28/1 - Automatic 2 State Button 18/2 - 2 State Button 1766.66 
+81/1765.3300 tabIndex 1425.3300.1765.1.1 1425.3300.1765.1.2 4 8/tabIndex 0/ 1766.66 
+79/1765.3301 tabStop 1425.3301.1765.1.1 1425.3301.1765.1.2 3 7/tabStop 0/ 1766.66 
+71/1765.3302 tag 1425.3302.1765.1.1 1425.3302.1765.1.2 2 3/tag 0/ 1766.66 
+72/1765.3303 top 1425.3303.1765.1.1 1425.3303.1765.1.2 14 3/top 0/ 1766.66 
+75/1765.3304 value 1425.3304.1765.1.1 1425.3304.1765.1.2 3 5/value 0/ 1766.66 
+79/1765.3305 visible 1425.3305.1765.1.1 1425.3305.1765.1.2 3 7/visible 0/ 1766.66 
+76/1765.3306 width 1425.3306.1765.1.1 1425.3306.1765.1.2 14 5/width 0/ 1766.66 
+*****DevControlProperties 
+>>>>>InstanceData 
+-----DevControlDefinitions 
