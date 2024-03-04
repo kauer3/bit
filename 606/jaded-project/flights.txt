@@ -1,0 +1,20 @@
+01/10/23 LAX JFK 08:00 Scheduled        Boeing 777
+02/10/23 JFK LHR 09:30 Landed           Airbus A320
+03/10/23 LHR CDG 10:45 Departed         Boeing 737
+04/10/23 CDG NRT 11:15 Delayed          Airbus A380
+05/10/23 NRT SYD 12:30 Scheduled        Embraer E190
+06/10/23 SYD FRA 14:00 Landed           Bombardier CRJ-200
+07/10/23 FRA DUB 16:15 Delayed          Boeing 787
+08/10/23 DUB SIN 17:45 Scheduled        Airbus A321
+09/10/23 SIN DXB 19:30 Departed         Boeing 737-700
+10/10/23 DXB ORD 21:00 Delayed          Boeing 747-400
+11/10/23 ORD MIA 22:30 Landed           McDonnell Douglas MD-80
+12/10/23 MIA AMS 08:00 Scheduled        Airbus A340
+13/10/23 AMS BCN 09:30 Landed           Embraer ERJ-145
+14/10/23 BCN IST 10:45 Departed         Boeing 767
+15/10/23 IST ATL 11:15 Delayed          Boeing 777X
+16/10/23 ATL MUC 12:30 Scheduled        Bombardier CRJ-900
+17/10/23 MUC HND 14:00 Landed           Airbus A330
+18/10/23 HND PEK 16:15 Departed         Boeing 747-8
+19/10/23 PEK SFO 17:45 Scheduled        McDonnell Douglas MD-90
+20/10/23 SFO PHL 19:30 Delayed          Embraer E170

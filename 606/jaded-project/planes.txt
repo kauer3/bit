@@ -1,0 +1,20 @@
+350     Large        1A-50J, 51A-100F  Boeing 777
+150     Small        1A-30F            Airbus A320
+200     Medium       1A-40F            Boeing 737
+550     Extra-Large  1A-60J, 61A-130F  Airbus A380
+100     Medium       1A-20F            Embraer E190
+50      Small        1A-10F            Bombardier CRJ-200
+300     Large        1A-40J, 41A-120F  Boeing 787
+200     Medium       1A-40F            Airbus A321
+150     Small        1A-30F            Boeing 737-700
+524     Extra-Large  1A-40J, 41A-440F  Boeing 747-400
+150     Medium       1A-30F            McDonnell Douglas MD-80
+330     Large        1A-40J, 41A-250F  Airbus A340
+50      Small        1A-20F            Embraer ERJ-145
+250     Medium       1A-40J, 41A-160F  Boeing 767
+425     Extra-Large  1A-50J, 51A-375F  Boeing 777X
+76      Small        1A-12F            Bombardier CRJ-900
+300     Medium       1A-40J, 41A-220F  Airbus A330
+410     Large        1A-50J, 51A-360F  Boeing 747-8
+160     Medium       1A-40F            McDonnell Douglas MD-90
+78      Small        1A-14F            Embraer E170
