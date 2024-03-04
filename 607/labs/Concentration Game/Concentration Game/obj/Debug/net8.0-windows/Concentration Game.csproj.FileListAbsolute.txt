@@ -1,0 +1,20 @@
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.csproj.AssemblyReference.cache
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration_Game.Form1.resources
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.csproj.GenerateResource.cache
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.AssemblyInfoInputs.cache
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.AssemblyInfo.cs
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\Concentration Game.exe
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\Concentration Game.deps.json
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\Concentration Game.runtimeconfig.json
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\Concentration Game.dll
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\Concentration Game.pdb
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\PlayingCards.dll
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\bin\Debug\net8.0-windows\PlayingCards.pdb
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentr.0A5B4DF4.Up2Date
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.dll
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\refint\Concentration Game.dll
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.pdb
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\Concentration Game.genruntimeconfig.cache
+C:\Users\kaue0\source\repos\Concentration Game\Concentration Game\obj\Debug\net8.0-windows\ref\Concentration Game.dll
