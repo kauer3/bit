@@ -12,19 +12,25 @@ localeDefinitions
 	setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:06:55.936;
 typeHeaders
 	BankingModelSchema subclassOf RootSchemaApp transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, highestOrdinal = 1, number = 2062;
-	Bank subclassOf Object highestOrdinal = 2, number = 2057;
-	BankAccount subclassOf Object abstract, highestOrdinal = 3, number = 2067;
+	Bank subclassOf Object highestSubId = 3, highestOrdinal = 5, number = 2057;
+	BankAccount subclassOf Object abstract, highestOrdinal = 5, number = 2067;
 	ChequeAccount subclassOf BankAccount highestOrdinal = 1, number = 2068;
 	SavingsAccount subclassOf BankAccount highestOrdinal = 1, number = 2069;
-	Customer subclassOf Object highestOrdinal = 4, number = 2066;
+	Customer subclassOf Object highestSubId = 1, highestOrdinal = 6, number = 2066;
 	GBankingModelSchema subclassOf RootSchemaGlobal transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2063;
 	SequenceNumber subclassOf Object highestOrdinal = 2, number = 2058;
 	SBankingModelSchema subclassOf RootSchemaSession transient, sharedTransientAllowed, transientAllowed, subclassSharedTransientAllowed, subclassTransientAllowed, number = 2064;
-	CustomerbylastName subclassOf MemberKeyDictionary loadFactor = 66, number = 2065;
+	BankAccountByNumber subclassOf MemberKeyDictionary loadFactor = 66, number = 2094;
+	ChequeAccountByNumber subclassOf MemberKeyDictionary loadFactor = 66, number = 2092;
+	CustomerByLastName subclassOf MemberKeyDictionary loadFactor = 66, number = 2065;
+	SavingsAccountByNumber subclassOf MemberKeyDictionary loadFactor = 66, number = 2093;
 	CustomerSet subclassOf ObjectSet loadFactor = 66, number = 2060;
 	CustomerArray subclassOf Array number = 2061;
 membershipDefinitions
-	CustomerbylastName of Customer;
+	BankAccountByNumber of BankAccount;
+	ChequeAccountByNumber of ChequeAccount;
+	CustomerByLastName of Customer;
+	SavingsAccountByNumber of SavingsAccount;
 	CustomerSet of Customer;
 	CustomerArray of Customer;
 typeDefinitions
@@ -51,6 +57,12 @@ typeDefinitions
 	(
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:15:39.259;
 	referenceDefinitions
+		allChequeAccounts:             ChequeAccountByNumber   explicitInverse, readonly, subId = 2, number = 4, ordinal = 4;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:05:32.759;
+		allCustomers:                  CustomerByLastName   explicitInverse, readonly, subId = 1, number = 3, ordinal = 3;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:03:21.175;
+		allSavingsAccounts:            SavingsAccountByNumber   explicitInverse, readonly, subId = 3, number = 5, ordinal = 5;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:08:08.907;
 		myBankAcctSeqNum:              SequenceNumber  protected, number = 1, ordinal = 1;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:06:24.104;
 		myCustomerSeqNum:              SequenceNumber  protected, number = 2, ordinal = 2;
@@ -59,11 +71,11 @@ typeDefinitions
 		create() updating, number = 1003;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:18:00.559;
 		delete() updating, number = 1004;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:21:42.715;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:29:59.846;
 		nextBankAcctNum(): Integer number = 1001;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:07:49.770;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:28:50.411;
 		nextCustomerNum(): Integer number = 1002;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:15:54.026;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:29:02.638;
 	)
 	BankAccount completeDefinition
 	(
@@ -73,6 +85,11 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:25:31.765;
 		number:                        Integer readonly, number = 2, ordinal = 2;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:26:03.878;
+	referenceDefinitions
+		myBank:                        Bank   explicitEmbeddedInverse, readonly, number = 4, ordinal = 5;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:08:08.907;
+		myCustomer:                    Customer   explicitEmbeddedInverse, readonly, number = 3, ordinal = 4;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:00:17.898;
 	jadeMethodDefinitions
 		create() updating, number = 1001;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:27:11.627;
@@ -86,8 +103,9 @@ typeDefinitions
 	jadeMethodDefinitions
 		setPropertiesOnCreate(
 			pBalance: Decimal; 
+			pCustomer: Customer; 
 			pOverdraft: Decimal) updating, number = 1001;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:01:10:08:05.177;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:09:50.823;
 	)
 	SavingsAccount completeDefinition
 	(
@@ -98,8 +116,9 @@ typeDefinitions
 	jadeMethodDefinitions
 		setPropertiesOnCreate(
 			pBalance: Decimal; 
+			pCustomer: Customer; 
 			pIntRate: Decimal) updating, number = 1001;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:01:10:16:11.572;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:11:32.656;
 	)
 	Customer completeDefinition
 	(
@@ -113,14 +132,19 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:22:49.731;
 		number:                        Integer readonly, number = 4, ordinal = 4;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:07:25:10:23:12.392;
+	referenceDefinitions
+		allBankAccounts:               BankAccountByNumber   explicitInverse, readonly, subId = 1, number = 5, ordinal = 5;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:00:17.896;
+		myBank:                        Bank   explicitEmbeddedInverse, readonly, number = 6, ordinal = 6;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:03:21.176;
 	jadeMethodDefinitions
 		create() updating, number = 1002;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:28:44.046;
 		setpropertiesoncreate(
 			pAddress: String; 
-			pFirstName: String; 
+			pFirstNames: String; 
 			pLastName: String) updating, number = 1001;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:15:11:09:39.649;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:15:35.315;
 	)
 	Global completeDefinition
 	(
@@ -136,13 +160,15 @@ typeDefinitions
 	(
 	jadeMethodDefinitions
 		count_J_Customers() number = 1005;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:15:11:14:01.556;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:01:12.109;
 		createBank() number = 1006;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:09:05:09:35:22.033;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:30:34.474;
 		createChequeAccounts() number = 1001;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:01:10:10:36.916;
+		createCustomerWithBankAccounts() number = 1007;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:32:37.017;
 		createCustomersFromFile() number = 1004;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:15:11:12:08.016;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:01:12.108;
 		createSavingsAccounts() number = 1002;
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:01:10:20:25.679;
 		testAddTax() number = 1003;
@@ -152,11 +178,11 @@ typeDefinitions
 	(
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:01:30.974;
 	attributeDefinitions
-		number:                        Integer readonly, number = 1, ordinal = 2;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:02:36.600;
+		number:                        Integer protected, number = 1, ordinal = 2;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:26:10.757;
 	jadeMethodDefinitions
 		next(): Integer updating, number = 1001;
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:10:10:04:10.716;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:26:35.278;
 	)
 	WebSession completeDefinition
 	(
@@ -187,9 +213,21 @@ typeDefinitions
 	MemberKeyDictionary completeDefinition
 	(
 	)
-	CustomerbylastName completeDefinition
+	BankAccountByNumber completeDefinition
 	(
-		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:15:11:07:39.921;
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:09:58:15.871;
+	)
+	ChequeAccountByNumber completeDefinition
+	(
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:09:54:26.590;
+	)
+	CustomerByLastName completeDefinition
+	(
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:10:01:12.108;
+	)
+	SavingsAccountByNumber completeDefinition
+	(
+		setModifiedTimeStamp "kaue" "22.0.02" 2023:10:31:09:57:01.413;
 	)
 	Set completeDefinition
 	(
@@ -218,10 +256,28 @@ typeDefinitions
 		setModifiedTimeStamp "kaue" "22.0.02" 2023:08:08:09:49:58.756;
 	)
 memberKeyDefinitions
-	CustomerbylastName completeDefinition
+	BankAccountByNumber completeDefinition
+	(
+		number;
+	)
+	ChequeAccountByNumber completeDefinition
+	(
+		number;
+	)
+	CustomerByLastName completeDefinition
 	(
 		lastName;
 	)
+	SavingsAccountByNumber completeDefinition
+	(
+		number;
+	)
+inverseDefinitions
+	allChequeAccounts of Bank automatic peerOf myBank of BankAccount manual;
+	allCustomers of Bank automatic peerOf myBank of Customer manual;
+	allSavingsAccounts of Bank automatic peerOf myBank of BankAccount manual;
+	allBankAccounts of Customer automatic peerOf myCustomer of BankAccount manual;
+
 databaseDefinitions
 	BankingModelSchemaDb
 	(
@@ -233,15 +289,18 @@ databaseDefinitions
 	classMapDefinitions
 		Bank in "bank";
 		BankAccount in "bank";
+		BankAccountByNumber in "bank";
 		BankingModelSchema in "_usergui";
 		ChequeAccount in "bank";
+		ChequeAccountByNumber in "bank";
 		Customer in "bank";
 		CustomerArray in "bank";
+		CustomerByLastName in "bank";
 		CustomerSet in "bank";
-		CustomerbylastName in "bank";
 		GBankingModelSchema in "bank";
 		SBankingModelSchema in "_environ";
 		SavingsAccount in "bank";
+		SavingsAccountByNumber in "bank";
 		SequenceNumber in "bank";
 	)
 typeSources
@@ -278,7 +337,7 @@ end;
 }
 nextBankAcctNum
 {
-nextBankAcctNum():Integer;
+nextBankAcctNum() : Integer;
 
 begin
 	return self.myBankAcctSeqNum.next();
@@ -286,7 +345,7 @@ end;
 }
 nextCustomerNum
 {
-nextCustomerNum():Integer;
+nextCustomerNum() : Integer;
 
 begin
 	return self.myCustomerSeqNum.next();
@@ -308,11 +367,13 @@ end;
 	jadeMethodSources
 setPropertiesOnCreate
 {
-setPropertiesOnCreate(pBalance : Decimal; pOverdraft : Decimal) updating;
+setPropertiesOnCreate(pBalance : Decimal; pCustomer : Customer; pOverdraft : Decimal) updating;
 
 begin
 	self.balance := pBalance;
 	self.overdraftLimit := pOverdraft;
+	self.myCustomer := pCustomer;
+	self.myBank := app.myBank;
 end;
 }
 	)
@@ -320,11 +381,13 @@ end;
 	jadeMethodSources
 setPropertiesOnCreate
 {
-setPropertiesOnCreate(pBalance : Decimal; pIntRate : Decimal) updating;
+setPropertiesOnCreate(pBalance : Decimal; pCustomer : Customer; pIntRate : Decimal) updating;
 
 begin
 	self.balance := pBalance;
 	self.interestRate := pIntRate;
+	self.myCustomer := pCustomer;
+	self.myBank := myBank;
 end;
 }
 	)
@@ -340,12 +403,13 @@ end;
 }
 setpropertiesoncreate
 {
-setpropertiesoncreate(pAddress : String; pFirstName : String; pLastName : String) updating;
+setpropertiesoncreate(pAddress : String; pFirstNames : String; pLastName : String) updating;
 
 begin
 	self.address := pAddress;
-	self.firstName := pFirstName;
+	self.firstName := pFirstNames;
 	self.lastName := pLastName;
+	self.myBank := app.myBank;
 end;
 }
 	)
@@ -357,11 +421,11 @@ count_J_Customers();
 
 vars
 	iter : Iterator;
-	dict : CustomerbylastName;
+	dict : CustomerByLastName;
 	cust : Customer;
 	count : Integer;
 begin
-	dict := CustomerbylastName.firstInstance();
+	dict := CustomerByLastName.firstInstance();
 	iter := dict.createIterator();
 	dict.startKeyGeq('J', iter);
 	while iter.next (cust) do
@@ -401,6 +465,32 @@ begin
 	commitTransaction;
 end;
 }
+createCustomerWithBankAccounts
+{
+createCustomerWithBankAccounts();
+
+vars
+	customer : Customer;
+	chequeAcc : ChequeAccount;
+	savingsAcc : SavingsAccount;
+begin
+	app.initialize();
+	
+	beginTransaction;
+	create customer persistent;
+	customer.setpropertiesoncreate('Wales', 'Tom', 'Jones');
+	create chequeAcc persistent;
+	chequeAcc.setPropertiesOnCreate(100, customer, 5000);
+	create chequeAcc persistent;
+	chequeAcc.setPropertiesOnCreate(650, customer, 2000);
+	
+	create savingsAcc persistent;
+	savingsAcc.setPropertiesOnCreate(2000, customer, 0.05);
+	create savingsAcc persistent;
+	savingsAcc.setPropertiesOnCreate(1550, customer, 0.045);
+	commitTransaction;
+end;
+}
 createCustomersFromFile
 {
 createCustomersFromFile();
@@ -410,7 +500,7 @@ vars
 	str : String;
 	cust : Customer;
 	ary : CustomerArray;
-	dict : CustomerbylastName;
+	dict : CustomerByLastName;
 	set : CustomerSet;
 begin
 	create file transient;
@@ -465,7 +555,7 @@ end;
 	jadeMethodSources
 next
 {
-next():Integer updating;
+next() : Integer updating;
 
 begin
 	self.number := self.number + 1;
