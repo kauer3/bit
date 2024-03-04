@@ -1,0 +1,3 @@
+﻿#MULTIPLE_SCHEMA_EXTRACT
+FlightBookingSchema.scm FlightBookingSchema.ddx
+FlightBookingViewSchema.scm FlightBookingViewSchema.ddx

@@ -1,0 +1,57 @@
+LAX LOS Los Angeles
+JFK NYC New York
+LHR LON London
+CDG PAR Paris
+NRT TYO Tokyo
+SYD SYD Sydney
+FRA FRA Frankfurt
+DUB DUB Dublin
+SIN SIN Singapore
+DXB DXB Dubai
+ORD CHI Chicago
+MIA MIA Miami
+AMS AMS Amsterdam
+BCN BCN Barcelona
+IST IST Istanbul
+ATL ATL Atlanta
+MUC MUC Munich
+HND TOK Tokyo
+PEK BJS Beijing
+SFO SFO San Francisco
+PHL PHL Philadelphia
+MAD MAD Madrid
+VIE VIE Vienna
+SVO MOW Moscow
+HKG HKG Hong Kong
+MEX MEX Mexico City
+CPH CPH Copenhagen
+ICN SEL Seoul
+ZRH ZRH Zurich
+LAS LAS Las Vegas
+CVG CVG Cincinnati
+DEL DEL Delhi
+AKL AKL Auckland
+WLG WLG Wellington
+CHC CHC Christchurch
+ZQN ZQN Queenstown
+DUD DUD Dunedin
+ROT ROT Rotorua
+NPE NPE Napier
+GIS GIS Gisborne
+PMR PMR Palmerston North
+NSN NSN Nelson
+BHE BHE Blenheim
+HLZ HLZ Hamilton
+IVC IVC Invercargill
+TIU TIU Timaru
+URO URO Taupo
+WRE WRE Whangarei
+TRG TRG Tauranga
+PPQ PPQ Paraparaumu
+GBZ GBZ Great Barrier Island
+WSZ WSZ Westport
+MRO MRO Masterton
+TKZ TKZ Tokoroa
+WAG WAG Whakatane
+KAT KAT Kaitaia
+NZH NZH Manapouri
