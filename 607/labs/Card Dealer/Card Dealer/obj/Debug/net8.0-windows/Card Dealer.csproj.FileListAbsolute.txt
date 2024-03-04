@@ -1,0 +1,20 @@
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.csproj.AssemblyReference.cache
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card_Dealer.Form1.resources
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.csproj.GenerateResource.cache
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.AssemblyInfoInputs.cache
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.AssemblyInfo.cs
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\Card Dealer.exe
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\Card Dealer.deps.json
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\Card Dealer.runtimeconfig.json
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\Card Dealer.dll
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\Card Dealer.pdb
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\PlayingCards.dll
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\bin\Debug\net8.0-windows\PlayingCards.pdb
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dea.AF008346.Up2Date
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.dll
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\refint\Card Dealer.dll
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.pdb
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\Card Dealer.genruntimeconfig.cache
+C:\Users\kaue0\source\repos\Card Dealer\Card Dealer\obj\Debug\net8.0-windows\ref\Card Dealer.dll
