@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qmaX3pTKwTGZYVwJjaqM7b6e46aeMBhKGu4oDfF0y77RKvZf5nMMq/FEb+6QehFr6ePz8OymKMDRrpXVTJ2WmA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kaue0\\source\\repos\\PlayingCards - Lab2\\PlayingCards\\PlayingCards.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaue0\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\kaue0\\.nuget\\packages\\system.drawing.common\\8.0.2\\system.drawing.common.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

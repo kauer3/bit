@@ -1,0 +1,24 @@
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\bin\Debug\net8.0\PlayingCards.deps.json
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\bin\Debug\net8.0\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\bin\Debug\net8.0\PlayingCards.pdb
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.csproj.AssemblyReference.cache
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.AssemblyInfoInputs.cache
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.AssemblyInfo.cs
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\refint\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\PlayingCards.pdb
+C:\Users\kaue0\source\repos\PlayingCards\PlayingCards\obj\Debug\net8.0\ref\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\bin\Debug\net8.0\PlayingCards.deps.json
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\bin\Debug\net8.0\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\bin\Debug\net8.0\PlayingCards.pdb
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.csproj.AssemblyReference.cache
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.AssemblyInfoInputs.cache
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.AssemblyInfo.cs
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\refint\PlayingCards.dll
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\PlayingCards.pdb
+C:\Users\kaue0\source\repos\PlayingCards - Lab2\PlayingCards\obj\Debug\net8.0\ref\PlayingCards.dll
