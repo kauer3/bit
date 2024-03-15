@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaue0\\source\\repos\\PDF Creation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9840DE8-0390-4DE1-B232-7F4CF574AD02}|PDF Creation\\PDF Creation.csproj|c:\\users\\kaue0\\source\\repos\\pdf creation\\pdf creation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9840DE8-0390-4DE1-B232-7F4CF574AD02}|PDF Creation\\PDF Creation.csproj|solutionrelative:pdf creation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9840DE8-0390-4DE1-B232-7F4CF574AD02}|PDF Creation\\PDF Creation.csproj|C:\\Users\\kaue0\\source\\repos\\PDF Creation\\pdf creation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F9840DE8-0390-4DE1-B232-7F4CF574AD02}|PDF Creation\\PDF Creation.csproj|solutionrelative:pdf creation\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kaue0\\source\\repos\\PDF Creation\\PDF Creation\\Form1.cs",
+              "RelativeDocumentMoniker": "PDF Creation\\Form1.cs",
+              "ToolTip": "C:\\Users\\kaue0\\source\\repos\\PDF Creation\\PDF Creation\\Form1.cs",
+              "RelativeToolTip": "PDF Creation\\Form1.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwDkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T21:08:25.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\kaue0\\source\\repos\\PDF Creation\\PDF Creation\\Form1.cs",
+              "RelativeDocumentMoniker": "PDF Creation\\Form1.cs",
+              "ToolTip": "C:\\Users\\kaue0\\source\\repos\\PDF Creation\\PDF Creation\\Form1.cs [Design]",
+              "RelativeToolTip": "PDF Creation\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T21:07:54.92Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
