@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             closeButton = new Button();
             CreateReportButton = new Button();
+            statusTimer = new System.Windows.Forms.Timer(components);
             SuspendLayout();
             // 
             // closeButton
@@ -52,6 +54,10 @@
             CreateReportButton.UseVisualStyleBackColor = true;
             CreateReportButton.Click += CreateReportButton_Click;
             // 
+            // statusTimer
+            // 
+            statusTimer.Tick += StatusTimer_Tick;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -69,5 +75,6 @@
 
         private Button closeButton;
         private Button CreateReportButton;
+        private System.Windows.Forms.Timer statusTimer;
     }
 }
