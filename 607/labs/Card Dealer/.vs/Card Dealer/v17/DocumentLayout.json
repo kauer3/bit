@@ -21,21 +21,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "C:\\Users\\kaue0\\source\\repos\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
-              "RelativeDocumentMoniker": "..\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
-              "ToolTip": "C:\\Users\\kaue0\\source\\repos\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
-              "RelativeToolTip": "..\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAFQAAABIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T21:21:11.064Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -44,9 +31,23 @@
               "RelativeDocumentMoniker": "Card Dealer\\Form1.cs",
               "ToolTip": "C:\\Users\\kaue0\\source\\repos\\Card Dealer\\Card Dealer\\Form1.cs",
               "RelativeToolTip": "Card Dealer\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "ViewState": "AQIAAMkAAAAAAAAAAADwv+UAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T20:51:08.515Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "C:\\Users\\kaue0\\source\\repos\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
+              "RelativeDocumentMoniker": "..\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
+              "ToolTip": "C:\\Users\\kaue0\\source\\repos\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
+              "RelativeToolTip": "..\\PlayingCards - Lab2\\PlayingCards\\Deck.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T00:31:01.666Z",
               "EditorCaption": ""
             },
             {
