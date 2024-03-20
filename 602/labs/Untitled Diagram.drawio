@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T05:46:40.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="fe9L4fXcbW50IROqx6av" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T13:50:42.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0" etag="Tx3B1g2UyowAA3yV_hQf" version="24.0.7" type="github">
   <diagram name="Page-1" id="4fc8d65c-f3f6-feb3-4d1c-02f59d9f9886">
-    <mxGraphModel dx="562" dy="304" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="304" dy="309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="826" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="5" value="Data" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="187" y="401.53" width="72" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="Inefficient Compliance Tracking" style="whiteSpace=wrap;strokeWidth=3" parent="1" vertex="1">
-          <mxGeometry x="626.71" y="257.42" width="77" height="48" as="geometry" />
+        <mxCell id="8" value="Ineffective Customer Support via Mobile App" style="whiteSpace=wrap;strokeWidth=3" parent="1" vertex="1">
+          <mxGeometry x="618" y="257.42" width="113.29" height="48" as="geometry" />
         </mxCell>
         <mxCell id="9" value="" style="edgeStyle=none;strokeWidth=4" parent="1" target="8" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -24,32 +24,32 @@
         </mxCell>
         <mxCell id="26" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="218" y="342" as="sourcePoint" />
+            <mxPoint x="227" y="342" as="sourcePoint" />
             <mxPoint x="251.22833333333324" y="341.53" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="36" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2;entryX=-0.025;entryY=0.311;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="141">
+        <mxCell id="36" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="251.22833333333324" y="341.53" as="sourcePoint" />
-            <mxPoint x="285" y="341" as="targetPoint" />
+            <mxPoint x="274" y="341" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="48" value="" style="edgeStyle=none;endArrow=none;entryX=0.12;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="134" edge="1">
+        <mxCell id="48" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="270" y="341" as="sourcePoint" />
-            <mxPoint x="311.22833333333324" y="321.53" as="targetPoint" />
+            <mxPoint x="263" y="340.76" as="sourcePoint" />
+            <mxPoint x="275" y="321" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="49" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="261.22833333333324" y="341.53" as="sourcePoint" />
-            <mxPoint x="280.77000000000004" y="361.53" as="targetPoint" />
+            <mxPoint x="254.99833333333325" y="341.53" as="sourcePoint" />
+            <mxPoint x="268" y="365" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="50" value="" style="edgeStyle=none;endArrow=none;exitX=0.563;exitY=-0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="128">
+        <mxCell id="50" value="" style="edgeStyle=none;endArrow=none;exitX=0.654;exitY=-0.039;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="204.76833333333326" y="361.53" as="sourcePoint" />
-            <mxPoint x="228" y="342" as="targetPoint" />
+            <mxPoint x="223.00242" y="360.9999999999999" as="sourcePoint" />
+            <mxPoint x="234.73" y="342.25" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="52" value="" style="edgeStyle=none;endArrow=none;exitX=0.581;exitY=0.971;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="125" edge="1">
@@ -58,23 +58,20 @@
             <mxPoint x="241.22833333333324" y="341.53" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="119" value="Insufficient&#xa;Data&#xa;Security" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="182.54" y="332" width="37.46" height="20" as="geometry" />
+        <mxCell id="119" value="Inaccurate or&#xa;Outdated&#xa;Information" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="188" y="332" width="37.46" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="125" value="Lack of Data Encryption" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="125" value="Incorrect Knowledge Base" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="184.76999999999998" y="311.53" width="73.54" height="5.42" as="geometry" />
         </mxCell>
-        <mxCell id="128" value="Weak Access&#xa;Controls" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="191" y="361.53" width="40.23" height="20" as="geometry" />
+        <mxCell id="128" value="Outdated FAQs" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="188" y="361.53" width="43.23" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="134" value="Data Entry&#xa;Errors" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="281.23" y="309" width="21.77" height="11.97" as="geometry" />
+        <mxCell id="134" value="Data Silos&#xa;Causing Gaps" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="278" y="308.25" width="21.77" height="11.97" as="geometry" />
         </mxCell>
-        <mxCell id="136" value="Incomplete Data Records" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="254.77000000000004" y="364.03" width="70" height="17.5" as="geometry" />
-        </mxCell>
-        <mxCell id="141" value="Inaccurate&#xa;Data&#xa;Entries" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="281.23" y="332" width="37.77" height="29" as="geometry" />
+        <mxCell id="136" value="Lack of Real-time Data Updates" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="250.00000000000003" y="366.66999999999996" width="70" height="17.5" as="geometry" />
         </mxCell>
         <mxCell id="143" value="Hardware" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="281" y="110" width="76" height="60" as="geometry" />
@@ -108,14 +105,14 @@
         </mxCell>
         <mxCell id="153" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="366" y="320" as="sourcePoint" />
+            <mxPoint x="373" y="320" as="sourcePoint" />
             <mxPoint x="395.83" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="157" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="385.82999999999987" y="339.99999999999994" as="sourcePoint" />
-            <mxPoint x="425.83" y="340" as="targetPoint" />
+            <mxPoint x="375.9999999999999" y="356.53" as="sourcePoint" />
+            <mxPoint x="403" y="357" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="163" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
@@ -142,59 +139,59 @@
             <mxPoint x="309.51774691358037" y="226.36959876543202" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="169" value="" style="edgeStyle=none;endArrow=none;entryX=0.365;entryY=1.104;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="194" edge="1">
+        <mxCell id="169" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="415.83" y="340" as="sourcePoint" />
-            <mxPoint x="445.83" y="319.99999999999994" as="targetPoint" />
+            <mxPoint x="395" y="356.43" as="sourcePoint" />
+            <mxPoint x="411" y="326.43" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="170" value="" style="edgeStyle=none;endArrow=none;entryX=0.446;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="197" edge="1">
+        <mxCell id="170" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="405.83" y="340" as="sourcePoint" />
-            <mxPoint x="415.83" y="360" as="targetPoint" />
+            <mxPoint x="391" y="357" as="sourcePoint" />
+            <mxPoint x="404" y="372" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="174" value="" style="edgeStyle=none;endArrow=none;" parent="1" source="187" edge="1">
+        <mxCell id="174" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="375.83" y="319.99999999999994" as="sourcePoint" />
-            <mxPoint x="375.83" y="320" as="targetPoint" />
+            <mxPoint x="373.8346749102513" y="300" as="sourcePoint" />
+            <mxPoint x="389.78999999999996" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="177" value="Outdated Server&#xa;Infrastructure" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="220" y="220" width="70" height="20" as="geometry" />
+        <mxCell id="177" value="Compatibility Issues&#xa;with Older Devices" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="215" y="215" width="75" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="179" value="Limited&#xa;Database&#xa;Functionality" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="324" y="310" width="43.83" height="20" as="geometry" />
+        <mxCell id="179" value="Inadequate&#xa;User&#xa;Interface" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="330" y="310.21" width="43.83" height="20" as="geometry" />
         </mxCell>
         <mxCell id="182" value="Insufficient Server Resources" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="231" y="181.53" width="88" height="20" as="geometry" />
+          <mxGeometry x="240" y="189.5" width="88" height="7" as="geometry" />
         </mxCell>
-        <mxCell id="185" value="Performance Bottlenecks" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="185" value="Functionality Limitations&#xa;on Outdated Systems" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="289.9955555555554" y="248.88777777777776" width="30" height="19.999999999999886" as="geometry" />
         </mxCell>
-        <mxCell id="186" value="Scalability Issues" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="186" value="Confusing&#xa;Navigation" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="334" y="348.9966666666665" width="30" height="19.999999999999886" as="geometry" />
         </mxCell>
-        <mxCell id="187" value="Missing Essential Features" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="340.83" y="289.86" width="30" height="10.14" as="geometry" />
+        <mxCell id="187" value="Inefficient Layout for&#xa;Support Resources" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="354.58" y="289.86" width="30" height="10.14" as="geometry" />
         </mxCell>
-        <mxCell id="191" value="Lack of Backup Redundancy" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="191" value="Lack of Compatibility Checks" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="370.8377777777776" y="191.52888888888882" width="30" height="19.999999999999886" as="geometry" />
         </mxCell>
-        <mxCell id="192" value="Slow Recovery Processes" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="192" value="Overlooked Bugs and Glitches" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="384.58" y="248.89" width="67" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="194" value="Integration Challenges" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="420.40999999999997" y="300.42" width="65.42" height="9.58" as="geometry" />
+        <mxCell id="194" value="Missing Key&#xa;Features for Support" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="403" y="315.42" width="57.83" height="9.58" as="geometry" />
         </mxCell>
-        <mxCell id="197" value="Data Format&#xa;Incompatibility" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="411" y="365.42" width="34.41" height="22.58" as="geometry" />
+        <mxCell id="197" value="Slow Performance during Peak Usage" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="398" y="374" width="55" height="22.58" as="geometry" />
         </mxCell>
-        <mxCell id="199" value="Inadequate&#xa;Backup Systems" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="199" value="Insufficient&#xa;Device Testing" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="391.15999999999997" y="219.03" width="60.42" height="20.97" as="geometry" />
         </mxCell>
-        <mxCell id="202" value="Compatibility&#xa;Problems" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="437.22333333333324" y="333.402222222222" width="30" height="19.999999999999886" as="geometry" />
+        <mxCell id="202" value="Limited Functionality&#xa;and Responsiveness" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="427.0033333333333" y="348.992222222222" width="30" height="19.999999999999886" as="geometry" />
         </mxCell>
         <mxCell id="204" value="People" style="whiteSpace=wrap;strokeWidth=2" parent="1" vertex="1">
           <mxGeometry x="496" y="111.53" width="79" height="60" as="geometry" />
@@ -228,7 +225,7 @@
         </mxCell>
         <mxCell id="215" value="" style="edgeStyle=none;endArrow=none;strokeWidth=2" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="515" y="341" as="sourcePoint" />
+            <mxPoint x="536" y="341" as="sourcePoint" />
             <mxPoint x="565.833333333333" y="341.52777777777754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -282,51 +279,54 @@
         </mxCell>
         <mxCell id="234" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="505.8333333333331" y="361.52777777777754" as="sourcePoint" />
-            <mxPoint x="525.8333333333331" y="341.52777777777754" as="targetPoint" />
+            <mxPoint x="530.0033333333331" y="361.52777777777754" as="sourcePoint" />
+            <mxPoint x="550.0033333333331" y="341.52777777777754" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="237" value="Lack of&#xa;training" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="450" y="180" width="35.83" height="21.53" as="geometry" />
+        <mxCell id="237" value="Insufficient&#xa;Training&#xa;Programs" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="450" y="174" width="35.83" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="241" value="Manual&#xa;Data&#xa;Entry" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="485.83" y="323.64" width="25.41" height="28.86" as="geometry" />
+        <mxCell id="241" value="Inefficient&#xa;Escalation&#xa;Procedures" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="501" y="327.56999999999994" width="25.41" height="28.86" as="geometry" />
         </mxCell>
-        <mxCell id="243" value="Insufficient Training&#xa;Programs" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="475.8333333333332" y="211.52777777777746" width="30" height="19.999999999999886" as="geometry" />
+        <mxCell id="243" value="Lack of Training&#xa;Programs" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="457" y="211.53" width="63" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="244" value="Limited Awareness of Regulations" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="244" value="Limited Familiarity with Troubleshooting" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="470.83" y="240.97" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="248" value="Time-Consuming&#xa;Data Entry" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="248" value="Miscommunication in&#xa;Escalation Chains" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="510.83" y="305.42" width="50" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="249" value="Error-Prone&#xa;Manual Processes" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="475.83" y="362.5" width="51.11" height="20" as="geometry" />
+        <mxCell id="249" value="Delays in Escalating&#xa;Critical Issues" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="493" y="362.78" width="51.11" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="251" value="Shortage of Qualified Personnel" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="560" y="191.53" width="90" height="20" as="geometry" />
+        <mxCell id="251" value="Inconsistent Service due to Staff Changes" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="560" y="191.53" width="114" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="252" value="High Staff Turnover" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="586.67" y="240.97" width="55.42" height="20" as="geometry" />
+        <mxCell id="252" value="Longer Response Times for New Staff" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="586.67" y="240.97" width="103.33" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="255" value="Lack of Validation Protocols" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="586.67" y="309.86" width="83.33" height="20" as="geometry" />
+        <mxCell id="255" value="Discrepancies in Ticket Handling" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="586.67" y="309.86" width="90.33" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="258" value="Inconsistent Data Verification" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="565" y="365.42" width="80" height="20" as="geometry" />
+        <mxCell id="258" value="Unclear Guidelines for Issue Resolution" style="text;spacingTop=-5;fontSize=6;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="565" y="365.42" width="97" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="263" value="Data Validation&#xa;Processes" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
-          <mxGeometry x="630.42" y="328.33" width="61.58" height="30.14" as="geometry" />
+        <mxCell id="263" value="Lack of&#xa;Standardized&#xa;Processes" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+          <mxGeometry x="630.42" y="328.33" width="54.58" height="30.14" as="geometry" />
         </mxCell>
-        <mxCell id="CZlwH5WUpdTdyu7_PjM4-264" value="Inadequate staffing" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
+        <mxCell id="CZlwH5WUpdTdyu7_PjM4-264" value="High Turnover Rate" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" parent="1" vertex="1">
           <mxGeometry x="630.42" y="220" width="69.58" height="20" as="geometry" />
         </mxCell>
         <mxCell id="av0-iAl7pBz-ef9YuzW3-263" value="" style="edgeStyle=none;endArrow=none;" parent="1" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="356" y="347" as="sourcePoint" />
-            <mxPoint x="381" y="320" as="targetPoint" />
+            <mxPoint x="363" y="347" as="sourcePoint" />
+            <mxPoint x="379" y="320" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2NPFegpK8UYOzbiiOl9I-267" value="Insufficient&#xa;Data&#xa;Integration" style="text;spacingTop=-5;fontSize=8;align=center;verticalAlign=middle;points=[]" vertex="1" parent="1">
+          <mxGeometry x="275" y="328.9" width="37.77" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
