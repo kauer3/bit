@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "y/47Wj/4L0H411dLN2IJgCAZBUyN4829TX6Y3k3EYh5MCs3aNy7oSGC8Q+ft3d0ByrRHB4TZeiD4oCoReb+3aw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\DVDCollection\\DVDCollection\\DVDCollection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaue0\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\kaue0\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}
