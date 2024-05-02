@@ -61,7 +61,7 @@ namespace ExcelWorkbook
                 using (MySqlConnection conn = new MySqlConnection(CSTRING))
                 {
                     conn.Open();
-                    string query = "SELECT tblstudents.studentID, tblstudents.surname, tblstudents.firstname, tblsubjects.name, tbltimetable.day, tbltimetable.period FROM tblstudents JOIN tblenrolment ON tblstudents.studentID = tblenrolment.studentID JOIN tblsubjects ON tblenrolment.sid = tblsubjects.sid JOIN tbltimetable ON tblsubjects.sid = tbltimetable.sid ORDER BY tblstudents.studentID, tbltimetable.day, tbltimetable.period";
+                    string query = "SELECT tblstudents.studentID, tblstudents.surname, tblstudents.firstname, tblsubjects.name, tbltimetable.day, tbltimetable.period FROM tblstudents JOIN tblenrolment ON tblstudents.studentID = tblenrolment.studentID JOIN tblsubjects ON tblenrolment.sid = tblsubjects.sid JOIN tbltimetable ON tblsubjects.sid = tbltimetable.sid ORDER BY tblstudents.studentID, tbltimetable.period, tbltimetable.day";
                     MySqlCommand cmd = new MySqlCommand(query, conn);
                     MySqlDataReader reader = cmd.ExecuteReader();
                     Student student = new Student();
@@ -76,65 +76,81 @@ namespace ExcelWorkbook
                     int period = 0;
 
                     IWorkbook workbook = new XSSFWorkbook();
-                    ISheet sheet;
+                    ISheet studentTimetable;
+                    IRow row;
+                    ICell cell;
                     while (reader.Read())
                     {
-                        if (studentID != reader.GetInt32("studentID"))
+                        student.studentID = reader.GetInt32("studentID");
+                        if (studentID != student.studentID)
                         {
-                            sheet = workbook.CreateSheet(student.firstname);
-                            Console.WriteLine("studentID: {0}", reader.GetInt32("studentID"));
-                            studentID = reader.GetInt32("studentID");
+                            /*
+                            student.surname = reader.GetString("surname");
+                            student.firstname = reader.GetString("firstname");
+                            studentTimetable = workbook.CreateSheet(student.firstname + " " + student.surname);
+                            row = studentTimetable.CreateRow(0);
+                            cell = row.CreateCell(1);
+                            cell.SetCellValue("Monday");
+                            cell = row.CreateCell(2);
+                            cell.SetCellValue("Tuesday");
+                            cell = row.CreateCell(3);
+                            cell.SetCellValue("Wednesday");
+                            cell = row.CreateCell(4);
+                            cell.SetCellValue("Thursday");
+                            cell = row.CreateCell(5);
+                            cell.SetCellValue("Friday");
+                            */
+                            Console.WriteLine("Student ID: {0}, Name: {1} {2}", student.studentID, student.firstname, student.surname);
+                            studentID = student.studentID;
+
+                            return;
+
                             /*
                             student = new Student();
                             subject = new Subject();
                             timetable = new Timetable();
                             */
                         }
-                        if (day != reader.GetInt32("day") || period != reader.GetInt32("period"))
+
+                        timetable.period = reader.GetInt32("period");
+                        studentTimetable = workbook.GetSheet(student.firstname + " " + student.surname);
+                        if (period != timetable.period)
                         {
-                            Console.WriteLine("Day: {0}, Period: {1}", reader.GetInt32("day"), reader.GetInt32("period"));
-                            day = reader.GetInt32("day");
-                            period = reader.GetInt32("period");
+                            //row = studentTimetable.CreateRow(timetable.period);
+                            Console.WriteLine("Period: {0}", timetable.period);
+                            period = timetable.period;
                             /*
                              *student = new Student();
                              *subject = new Subject();
                              *timetable = new Timetable();
                             */
                         }
-                        /*
-                        student.studentID = reader.GetInt32("studentID");
-                        student.surname = reader.GetString("surname");
-                        student.firstname = reader.GetString("firstname");
-                        subject.name = reader.GetString("name");
+
                         timetable.day = reader.GetInt32("day");
-                        timetable.period = reader.GetInt32("period");
-                        */
+                        if (day != timetable.day)
+                        {
+                            Console.WriteLine("Day: {0}", (Days)timetable.day);
+                            day = timetable.day;
+                            //period = reader.GetInt32("period");
+                            /*
+                             *student = new Student();
+                             *subject = new Subject();
+                             *timetable = new Timetable();
+                            */
+                        }
 
-                        Console.WriteLine("Student ID: {0}, Surname: {1}, Firstname: {2}, Subject: {3}, Day: {4}, Period: {5}",
-                                                       student.studentID, student.surname, student.firstname, subject.name, (Days)timetable.day, timetable.period);
+                        subject.name = reader.GetString("name");
 
-                        /*
+                        Console.WriteLine("Student ID: {0}, Subject: {1}, Day: {2}, Period: {3}",
+                        student.studentID, subject.name, (Days)timetable.day, timetable.period);
+/*
+                        Console.WriteLine("Subject: {0}", subject.name);
                         students.Add(student);
                         subjects.Add(subject);
 
-                        IRow row = sheet.CreateRow(0);
-                        ICell cell = row.CreateCell(0);
-                        cell.SetCellValue("Student ID");
-                        cell = row.CreateCell(1);
-                        cell.SetCellValue("Surname");
-                        cell = row.CreateCell(2);
-                        cell.SetCellValue("Firstname");
-                        cell = row.CreateCell(3);
-                        cell.SetCellValue("Subject");
-                        cell = row.CreateCell(4);
-                        cell.SetCellValue("Day");
-                        cell = row.CreateCell(5);
-                        cell.SetCellValue("Period");
-                        cell = row.CreateCell(6);
-                        cell.SetCellValue("Time");
-                        cell = row.CreateCell(7);
 
-                        row = sheet.CreateRow(1);
+                        row = studentTimetable.CreateRow(timetable.period);
+
                         cell = row.CreateCell(0);
                         cell.SetCellValue(student.studentID);
                         cell = row.CreateCell(1);
@@ -150,38 +166,74 @@ namespace ExcelWorkbook
                         cell = row.CreateCell(6);
                         cell.SetCellValue(((Days)timetable.day).ToString() + " " + timetable.period);
                         cell = row.CreateCell(7);
-                        */
+*/
                     }
-
-                    /*
-                    using (FileStream file = new FileStream(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads", "lab10.xlsx"), FileMode.Create, FileAccess.Write))
-                    {
-                        workbook.Write(file);
-                    }
-                    */
-
-                    /*
-                    IWorkbook workbook = new XSSFWorkbook();
-
-                    ISheet sheet = workbook.CreateSheet("Sheet1");
-
-                    IRow row = sheet.CreateRow(0);
-
-                    ICell cell = row.CreateCell(0);
-                    cell.SetCellValue("Hello, World!");
-
-                    using (FileStream file = new FileStream("workbook.xlsx", FileMode.Create, FileAccess.Write))
-                    {
-                        workbook.Write(file);
-                    }
-                    */
                 }
+
+                /*
+                using (FileStream file = new FileStream(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads", "lab10.xlsx"), FileMode.Create, FileAccess.Write))
+                {
+                    workbook.Write(file);
+                }
+                */
+
+                /*
+                IWorkbook workbook = new XSSFWorkbook();
+
+                ISheet sheet = workbook.CreateSheet("Sheet1");
+
+                IRow row = sheet.CreateRow(0);
+
+                ICell cell = row.CreateCell(0);
+                cell.SetCellValue("Hello, World!");
+
+                using (FileStream file = new FileStream("workbook.xlsx", FileMode.Create, FileAccess.Write))
+                {
+                    workbook.Write(file);
+                }
+                */
             }
 
-            catch (MySqlException ex)
+            catch (MySqlException e)
             {
-                Console.WriteLine("Error: {0}", ex.ToString());
+                Console.WriteLine("Error: " + e.ToString());
             }
+        }
+
+        private void CreateStudentTimetable()
+        {
+            /*
+            ISheet studentTimetable = workbook.CreateSheet("Student Timetable");
+            IRow row = studentTimetable.CreateRow(0);
+            ICell cell = row.CreateCell(1);
+            cell.SetCellValue("Monday");
+            cell = row.CreateCell(2);
+            cell.SetCellValue("Tuesday");
+            cell = row.CreateCell(3);
+            cell.SetCellValue("Wednesday");
+            cell = row.CreateCell(4);
+            cell.SetCellValue("Thursday");
+            cell = row.CreateCell(5);
+            cell.SetCellValue("Friday");
+
+            row = studentTimetable.CreateRow(1);
+            cell = row.CreateCell(0);
+            cell.SetCellValue(timetable.period);
+            cell = row.CreateCell(1);
+            cell.SetCellValue(subject.name);
+            cell = row.CreateCell(4);
+            cell.SetCellValue(timetable.day);
+            cell = row.CreateCell(5);
+            cell.SetCellValue(timetable.period);
+            cell = row.CreateCell(6);
+            cell.SetCellValue(((Days)timetable.day).ToString() + " " + timetable.period);
+            cell = row.CreateCell(7);
+
+            using (FileStream file = new FileStream(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads", "lab10.xlsx"), FileMode.Create, FileAccess.Write))
+            {
+                workbook.Write(file);
+            }
+            */
         }
     }
 }
