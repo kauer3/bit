@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelWorkbook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf66118c8680544e35a1303c58a851b19cd72701")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d08c535cea16e3947154bc1b0abff3805f65098")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelWorkbook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelWorkbook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
