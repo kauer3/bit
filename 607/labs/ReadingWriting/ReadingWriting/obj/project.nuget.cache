@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/2MtaQJ7yvVWTELC+tx+2m+bdwRRE2wp25tiSo6ODheZ9Y7NQuL8CaTa2KPRy0ES3eRBzt00lUSY/kIq4bFzpg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWriting\\ReadingWriting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kaue0\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

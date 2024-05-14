@@ -1,0 +1,8 @@
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.csproj.AssemblyReference.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.Form1.resources
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.csproj.GenerateResource.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.AssemblyInfoInputs.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.AssemblyInfo.cs
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\ReadingWritingForm\obj\Debug\net8.0-windows\ReadingWritingForm.sourcelink.json

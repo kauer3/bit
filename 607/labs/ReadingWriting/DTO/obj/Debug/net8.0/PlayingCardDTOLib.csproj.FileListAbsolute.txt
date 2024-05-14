@@ -1,0 +1,12 @@
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\bin\Debug\net8.0\PlayingCardDTOLib.deps.json
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\bin\Debug\net8.0\PlayingCardDTOLib.dll
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\bin\Debug\net8.0\PlayingCardDTOLib.pdb
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.AssemblyInfoInputs.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.AssemblyInfo.cs
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.sourcelink.json
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.dll
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\refint\PlayingCardDTOLib.dll
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\PlayingCardDTOLib.pdb
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\DTO\obj\Debug\net8.0\ref\PlayingCardDTOLib.dll

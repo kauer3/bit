@@ -1,0 +1,5 @@
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\Form\obj\Debug\net8.0-windows\Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\Form\obj\Debug\net8.0-windows\Form.AssemblyInfoInputs.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\Form\obj\Debug\net8.0-windows\Form.AssemblyInfo.cs
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\Form\obj\Debug\net8.0-windows\Form.csproj.CoreCompileInputs.cache
+C:\Users\kaue0\gitstuff\bit\607\labs\ReadingWriting\Form\obj\Debug\net8.0-windows\Form.sourcelink.json

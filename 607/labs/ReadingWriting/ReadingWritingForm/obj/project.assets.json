@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "PlayingCardDTOLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/PlayingCardDTOLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PlayingCardDTOLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PlayingCardDTOLib/1.0.0": {
+      "type": "project",
+      "path": "../DTO/PlayingCardDTOLib.csproj",
+      "msbuildProject": "../DTO/PlayingCardDTOLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "PlayingCardDTOLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kaue0\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\ReadingWritingForm.csproj",
+      "projectName": "ReadingWritingForm",
+      "projectPath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\ReadingWritingForm.csproj",
+      "packagesPath": "C:\\Users\\kaue0\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\kaue0\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\DTO\\PlayingCardDTOLib.csproj": {
+              "projectPath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\DTO\\PlayingCardDTOLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
