@@ -3,15 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\Lab11\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2CD700BE-913A-40EC-8C18-6531CBCC4686}|Exercise2\\Exercise2.csproj|C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\Lab11\\exercise2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CD700BE-913A-40EC-8C18-6531CBCC4686}|Exercise2\\Exercise2.csproj|solutionrelative:exercise2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0A816894-B8A9-483A-9F7A-A8D9E55C548F}|Exercise3\\Exercise3.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\lab11\\exercise3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0A816894-B8A9-483A-9F7A-A8D9E55C548F}|Exercise3\\Exercise3.csproj|solutionrelative:exercise3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CD700BE-913A-40EC-8C18-6531CBCC4686}|Exercise2\\Exercise2.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\lab11\\exercise2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CD700BE-913A-40EC-8C18-6531CBCC4686}|Exercise2\\Exercise2.csproj|solutionrelative:exercise2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A816894-B8A9-483A-9F7A-A8D9E55C548F}|Exercise3\\Exercise3.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\lab11\\exercise3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A816894-B8A9-483A-9F7A-A8D9E55C548F}|Exercise3\\Exercise3.csproj|C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\Lab11\\exercise3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A816894-B8A9-483A-9F7A-A8D9E55C548F}|Exercise3\\Exercise3.csproj|solutionrelative:exercise3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -39,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\Lab11\\Exercise3\\Form1.cs",
               "RelativeDocumentMoniker": "Exercise3\\Form1.cs",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\Lab11\\Exercise2\\Program.cs",
               "RelativeDocumentMoniker": "Exercise2\\Program.cs",
               "ToolTip": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\Lab11\\Exercise2\\Program.cs",
               "RelativeToolTip": "Exercise2\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAzAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T01:29:40.435Z",
               "EditorCaption": ""
