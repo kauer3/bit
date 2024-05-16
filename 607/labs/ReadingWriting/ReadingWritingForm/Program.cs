@@ -1,3 +1,8 @@
+using ServerPlayingCards;
+using PlayingCardDTOLib;
+using System.Net.Sockets;
+using Newtonsoft.Json;
+
 namespace ReadingWritingForm
 {
     internal static class Program
@@ -11,7 +16,7 @@ namespace ReadingWritingForm
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new Form1());
+            Application.Run(new playersLst());
         }
     }
 }

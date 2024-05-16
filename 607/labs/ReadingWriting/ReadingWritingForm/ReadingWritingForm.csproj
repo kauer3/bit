@@ -9,10 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DTO\PlayingCardDTOLib.csproj" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="PlayingCardDTOLib">
+      <HintPath>..\Provided\PlayingCardDTOLib.dll</HintPath>
+    </Reference>
     <Reference Include="PlayingCards">
       <HintPath>..\Provided\PlayingCards.dll</HintPath>
     </Reference>

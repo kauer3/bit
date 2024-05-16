@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D0F87363-96DD-4507-8BF4-A5F64CF6B9A3}|DTO\\PlayingCardDTOLib.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\readingwriting\\dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F87363-96DD-4507-8BF4-A5F64CF6B9A3}|DTO\\PlayingCardDTOLib.csproj|solutionrelative:dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\readingwritingform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|solutionrelative:readingwritingform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\readingwriting\\readingwritingform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|solutionrelative:readingwritingform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{570F8971-D7EF-4DAE-AD93-5C8592DD611A}|ReadingWriting\\ReadingWriting.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\readingwriting\\readingwriting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{570F8971-D7EF-4DAE-AD93-5C8592DD611A}|ReadingWriting\\ReadingWriting.csproj|C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\readingwriting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{570F8971-D7EF-4DAE-AD93-5C8592DD611A}|ReadingWriting\\ReadingWriting.csproj|solutionrelative:readingwriting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\readingwriting\\readingwritingform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|solutionrelative:readingwritingform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0F87363-96DD-4507-8BF4-A5F64CF6B9A3}|DTO\\DTO.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\readingwriting\\dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F87363-96DD-4507-8BF4-A5F64CF6B9A3}|DTO\\DTO.csproj|solutionrelative:dto\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|c:\\users\\kaue0\\gitstuff\\bit\\607\\labs\\readingwriting\\readingwritingform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D72240B5-FCD5-476C-B044-AABB6746B82E}|ReadingWritingForm\\ReadingWritingForm.csproj|solutionrelative:readingwritingform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\Program.cs",
+              "RelativeDocumentMoniker": "ReadingWritingForm\\Program.cs",
+              "ToolTip": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\Program.cs",
+              "RelativeToolTip": "ReadingWritingForm\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T21:23:05.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\DTO\\Class1.cs",
               "RelativeDocumentMoniker": "DTO\\Class1.cs",
@@ -38,25 +55,25 @@
               "RelativeToolTip": "DTO\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T23:23:57.954Z",
+              "WhenOpened": "2024-05-15T21:22:40.834Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\Form1.cs",
               "RelativeDocumentMoniker": "ReadingWritingForm\\Form1.cs",
               "ToolTip": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\Form1.cs",
               "RelativeToolTip": "ReadingWritingForm\\Form1.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA5wB8AAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T23:18:11.248Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWritingForm\\Form1.cs",
               "RelativeDocumentMoniker": "ReadingWritingForm\\Form1.cs",
@@ -68,13 +85,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWriting\\Program.cs",
               "RelativeDocumentMoniker": "ReadingWriting\\Program.cs",
               "ToolTip": "C:\\Users\\kaue0\\gitstuff\\bit\\607\\labs\\ReadingWriting\\ReadingWriting\\Program.cs",
               "RelativeToolTip": "ReadingWriting\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T21:20:35.031Z",
               "EditorCaption": ""

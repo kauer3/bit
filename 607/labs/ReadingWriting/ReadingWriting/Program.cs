@@ -8,7 +8,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello");
         TcpClient client = new TcpClient("127.0.0.1", 2050);
 
         NetworkStream stream = client.GetStream();
