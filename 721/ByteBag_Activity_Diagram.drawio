@@ -106,7 +106,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="15" value="Open Bytebag" style="" parent="3" vertex="1">
-          <mxGeometry x="77.75" y="372" width="114.5" height="50" as="geometry" />
+          <mxGeometry x="77.75" y="374" width="114.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="16" value="Check for &#xa;new available files" style="" parent="3" vertex="1">
           <mxGeometry x="80" y="522" width="110" height="50" as="geometry" />
