@@ -74,7 +74,7 @@
           <mxGeometry x="170" y="694.5" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eYp77SEdqhD2MMEc281C-46" value="&lt;div&gt;yes&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;labelBackgroundColor=none;fontColor=#143642;" parent="2" vertex="1">
-          <mxGeometry x="321" y="369" width="40" height="30" as="geometry" />
+          <mxGeometry x="325" y="373" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3" value="Device 3 (Download authenticated)" style="swimlane;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="1" vertex="1">
           <mxGeometry x="759" y="17" width="270" height="792" as="geometry">
